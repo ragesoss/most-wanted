@@ -1,0 +1,47 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23pd",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q49505115",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49505115",
+    "label": "Inglemoor County Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.736944444,
+    "lon": -122.225833333,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49505115"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49505115 wdt:P18 [] }"
+   }
+  }
+ ]
+}

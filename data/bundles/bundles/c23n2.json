@@ -1,0 +1,203 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23n2",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q49003195",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49003195",
+    "label": "West Seattle Reservoir Dam",
+    "classes": [
+     "Q12323"
+    ],
+    "classifier_labels": [
+     "dam"
+    ]
+   },
+   "geo": {
+    "lat": 47.524722222,
+    "lon": -122.342777777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49003195"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49003195 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49111296",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49111296",
+    "label": "First Avenue Eigth Avenue Reach",
+    "classes": [
+     "Q1210950"
+    ],
+    "classifier_labels": [
+     "water"
+    ]
+   },
+   "geo": {
+    "lat": 47.537777777,
+    "lon": -122.329444444,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49111296"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49111296 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49111324",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49111324",
+    "label": "Fourteenth Avenue Bridge Reach",
+    "classes": [
+     "Q1210950"
+    ],
+    "classifier_labels": [
+     "water"
+    ]
+   },
+   "geo": {
+    "lat": 47.520555555,
+    "lon": -122.307222222,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49111324"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49111324 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49113348",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49113348",
+    "label": "South Park Reach",
+    "classes": [
+     "Q1210950"
+    ],
+    "classifier_labels": [
+     "water"
+    ]
+   },
+   "geo": {
+    "lat": 47.530277777,
+    "lon": -122.316666666,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49113348"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49113348 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49579222",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49579222",
+    "label": "Westcrest Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.524166666,
+    "lon": -122.340277777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49579222"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49579222 wdt:P18 [] }"
+   }
+  }
+ ]
+}

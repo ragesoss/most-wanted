@@ -1,0 +1,131 @@
+{
+ "format_version": "0.1",
+ "geohash": "c22zr",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q49520004",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49520004",
+    "label": "Loyal Heights Playground",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.683888888,
+    "lon": -122.383055555,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49520004"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49520004 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q117549324",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q117549324",
+    "label": "Crown Hill Cemetery",
+    "classes": [
+     "Q39614"
+    ],
+    "classifier_labels": [
+     "cemetery"
+    ]
+   },
+   "geo": {
+    "lat": 47.6936,
+    "lon": -122.3686,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q117549324"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q117549324 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306514",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306514",
+    "label": "Aurora Cinema I-II-III",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.723563,
+    "lon": -122.347741,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306514"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306514 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  }
+ ]
+}

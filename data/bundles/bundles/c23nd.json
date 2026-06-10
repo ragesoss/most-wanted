@@ -1,0 +1,247 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23nd",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q49496630",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49496630",
+    "label": "Groveland Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.551666666,
+    "lon": -122.234166666,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49496630"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49496630 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49502668",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49502668",
+    "label": "Homestead Field",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.573888888,
+    "lon": -122.230833333,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49502668"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49502668 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49505588",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49505588",
+    "label": "Island Crest Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.551388888,
+    "lon": -122.224166666,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49505588"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49505588 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49525376",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49525376",
+    "label": "Mercerdale Field",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.580833333,
+    "lon": -122.235277777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49525376"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49525376 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49844546",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49844546",
+    "label": "Bailey Peninsula",
+    "classes": [
+     "Q185113"
+    ],
+    "classifier_labels": [
+     "coastline",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.554722222,
+    "lon": -122.251111111,
+    "radius_m": 600
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49844546"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49844546 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49907451",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49907451",
+    "label": "Faben Point",
+    "classes": [
+     "Q185113"
+    ],
+    "classifier_labels": [
+     "coastline",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.5925,
+    "lon": -122.253055555,
+    "radius_m": 600
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49907451"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49907451 wdt:P18 [] }"
+   }
+  }
+ ]
+}

@@ -1,0 +1,487 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23n9",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q116769384",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q116769384",
+    "label": "The Original Philly's",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.5763,
+    "lon": -122.297,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q116769384"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q116769384 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q116736240",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q116736240",
+    "label": "Archipelago",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.551694444,
+    "lon": -122.27825,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q116736240"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q116736240 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49372279",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49372279",
+    "label": "Andrews Bay",
+    "classes": [
+     "Q39594"
+    ],
+    "classifier_labels": [
+     "water",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.556666666,
+    "lon": -122.258888888,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49372279"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49372279 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49479345",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49479345",
+    "label": "Columbia Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.5575,
+    "lon": -122.268611111,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49479345"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49479345 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49482367",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49482367",
+    "label": "Dearborn Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.552777777,
+    "lon": -122.294722222,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49482367"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49482367 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49493274",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49493274",
+    "label": "Genesee Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.562777777,
+    "lon": -122.278888888,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49493274"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49493274 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49513801",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49513801",
+    "label": "Lake Washington Boulevard Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.582222222,
+    "lon": -122.285833333,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49513801"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49513801 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49558246",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49558246",
+    "label": "Sayres Memorial Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.571111111,
+    "lon": -122.277222222,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49558246"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49558246 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49665543",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49665543",
+    "label": "Ohlers Island",
+    "classes": [
+     "Q23442"
+    ],
+    "classifier_labels": [
+     "island",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.563611111,
+    "lon": -122.266388888,
+    "radius_m": 600
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49665543"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49665543 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115683035",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115683035",
+    "label": "College Street Park",
+    "classes": [
+     "Q22746"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.582723024,
+    "lon": -122.294714378,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115683035"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115683035 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q118206488",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q118206488",
+    "label": "Spirit of Washington",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.56,
+    "lon": -122.287,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q118206488"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q118206488 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306761",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306761",
+    "label": "Toyo Cinema",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.551179,
+    "lon": -122.2776739,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306761"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306761 wdt:P18 [] }"
+   }
+  }
+ ]
+}

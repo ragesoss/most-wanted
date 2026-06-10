@@ -1,0 +1,137 @@
+{
+ "format_version": "0.1",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "publisher": "wikimedia/wikidata-p18-missing",
+ "geohash_precision": 5,
+ "bundles": {
+  "c22yj": {
+   "count": 1,
+   "bytes": 872
+  },
+  "c22yp": {
+   "count": 3,
+   "bytes": 2384
+  },
+  "c22yq": {
+   "count": 1,
+   "bytes": 850
+  },
+  "c22yr": {
+   "count": 5,
+   "bytes": 3906
+  },
+  "c22yx": {
+   "count": 7,
+   "bytes": 5586
+  },
+  "c22yz": {
+   "count": 10,
+   "bytes": 7808
+  },
+  "c22zn": {
+   "count": 7,
+   "bytes": 5533
+  },
+  "c22zp": {
+   "count": 15,
+   "bytes": 11711
+  },
+  "c22zr": {
+   "count": 3,
+   "bytes": 2478
+  },
+  "c22zx": {
+   "count": 2,
+   "bytes": 1642
+  },
+  "c23n0": {
+   "count": 2,
+   "bytes": 1610
+  },
+  "c23n1": {
+   "count": 1,
+   "bytes": 1000
+  },
+  "c23n2": {
+   "count": 5,
+   "bytes": 3888
+  },
+  "c23n3": {
+   "count": 2,
+   "bytes": 1642
+  },
+  "c23n4": {
+   "count": 2,
+   "bytes": 1618
+  },
+  "c23n6": {
+   "count": 2,
+   "bytes": 1628
+  },
+  "c23n8": {
+   "count": 11,
+   "bytes": 8660
+  },
+  "c23n9": {
+   "count": 12,
+   "bytes": 9262
+  },
+  "c23nb": {
+   "count": 104,
+   "bytes": 80746
+  },
+  "c23nc": {
+   "count": 3,
+   "bytes": 2479
+  },
+  "c23nd": {
+   "count": 6,
+   "bytes": 4682
+  },
+  "c23nf": {
+   "count": 4,
+   "bytes": 3149
+  },
+  "c23p0": {
+   "count": 32,
+   "bytes": 25286
+  },
+  "c23p1": {
+   "count": 8,
+   "bytes": 6234
+  },
+  "c23p2": {
+   "count": 7,
+   "bytes": 5475
+  },
+  "c23p3": {
+   "count": 1,
+   "bytes": 865
+  },
+  "c23p4": {
+   "count": 3,
+   "bytes": 2382
+  },
+  "c23p6": {
+   "count": 3,
+   "bytes": 2385
+  },
+  "c23p9": {
+   "count": 1,
+   "bytes": 874
+  },
+  "c23pd": {
+   "count": 1,
+   "bytes": 876
+  }
+ },
+ "stats": {
+  "review": 67,
+  "include": 264,
+  "exclude": 23,
+  "no_class": 37,
+  "exclude_privacy": 1,
+  "unlabeled": 1,
+  "total_items": 393
+ }
+}

@@ -1,0 +1,1562 @@
+{
+ "rows": [
+  {
+   "item": "Q3191413",
+   "itemLabel": "KIRO-TV",
+   "coord": "Point(-122.356611111 47.633)",
+   "sitelinks": "4",
+   "classes": "Q1616075",
+   "classLabels": "television station"
+  },
+  {
+   "item": "Q3236113",
+   "itemLabel": "Seattle Public Schools",
+   "coord": "Point(-122.330833333 47.580555555)",
+   "sitelinks": "6",
+   "classes": "Q15726209",
+   "classLabels": "school district in the United States"
+  },
+  {
+   "item": "Q3306191",
+   "itemLabel": "A Sound Garden",
+   "coord": "Point(-122.25 47.6853)",
+   "sitelinks": "4",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q33122030",
+   "itemLabel": "Immune Tolerance Network",
+   "coord": "Point(-122.329412 47.610078)",
+   "sitelinks": "0",
+   "classes": "Q163740",
+   "classLabels": "nonprofit organization"
+  },
+  {
+   "item": "Q384969",
+   "itemLabel": "Hunts Point",
+   "coord": "Point(-122.231 47.6367)",
+   "sitelinks": "31",
+   "classes": "Q15127012",
+   "classLabels": "town in the United States"
+  },
+  {
+   "item": "Q38817000",
+   "itemLabel": "Grand Hyatt Seattle",
+   "coord": "Point(-122.33388 47.61242)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q38838686",
+   "itemLabel": "Hyatt at Olive 8",
+   "coord": "Point(-122.333277 47.61328)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q3953625",
+   "itemLabel": "Seattle Seahawks Ring of Honor",
+   "coord": "Point(-122.33091 47.59521)",
+   "sitelinks": "3",
+   "classes": "Q618779",
+   "classLabels": "award"
+  },
+  {
+   "item": "Q41202516",
+   "itemLabel": "Broadway District",
+   "coord": "Point(-122.322033333 47.626594444)",
+   "sitelinks": "1",
+   "classes": "Q123705",
+   "classLabels": "neighborhood"
+  },
+  {
+   "item": "Q42531112",
+   "itemLabel": "KVRU-LP",
+   "coord": "Point(-122.290972222 47.570944444)",
+   "sitelinks": "1",
+   "classes": "Q14350",
+   "classLabels": "radio station"
+  },
+  {
+   "item": "Q42570914",
+   "itemLabel": "Mount Baker Ridge",
+   "coord": "Point(-122.292777777 47.596111111)",
+   "sitelinks": "1",
+   "classes": "Q740445",
+   "classLabels": "ridge"
+  },
+  {
+   "item": "Q43082348",
+   "itemLabel": "Lawton Park",
+   "coord": "Point(-122.40083333 47.65583333)",
+   "sitelinks": "1",
+   "classes": "Q123705",
+   "classLabels": "neighborhood"
+  },
+  {
+   "item": "Q43082351",
+   "itemLabel": "Southeast Magnolia",
+   "coord": "Point(-122.393055555 47.641111111)",
+   "sitelinks": "1",
+   "classes": "Q123705",
+   "classLabels": "neighborhood"
+  },
+  {
+   "item": "Q43305522",
+   "itemLabel": "Duwamish Drive-In",
+   "coord": "Point(-122.293131 47.5029404)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q786922|Q41253",
+   "classLabels": "destroyed building or structure|drive-in theater|movie theater"
+  },
+  {
+   "item": "Q43305843",
+   "itemLabel": "Egyptian Theatre",
+   "coord": "Point(-122.3132754 47.6623654)",
+   "sitelinks": "0",
+   "classes": "Q5348452|Q41253",
+   "classLabels": "Egyptian theatre|movie theater"
+  },
+  {
+   "item": "Q43305856",
+   "itemLabel": "Orpheum Theatre, 3rd Avenue",
+   "coord": "Point(-122.331057 47.60672)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43305860",
+   "itemLabel": "Pacific Science Center IMAX Theatres",
+   "coord": "Point(-122.3514414 47.6193976)",
+   "sitelinks": "0",
+   "classes": "Q42034610|Q41253",
+   "classLabels": "IMAX theatre|movie theater"
+  },
+  {
+   "item": "Q43306497",
+   "itemLabel": "Alaska Theatre",
+   "coord": "Point(-122.3322406 47.6020477)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306500",
+   "itemLabel": "AMC Dine-In Seattle 10",
+   "coord": "Point(-122.3183386 47.661682)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306509",
+   "itemLabel": "AMC Pacific Place 11",
+   "coord": "Point(-122.335349 47.612427)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306512",
+   "itemLabel": "Atlas Theatre",
+   "coord": "Point(-122.324682 47.598788)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306514",
+   "itemLabel": "Aurora Cinema I-II-III",
+   "coord": "Point(-122.347741 47.723563)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306517",
+   "itemLabel": "Ballard Theatre",
+   "coord": "Point(-122.3847497 47.6686859)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306520",
+   "itemLabel": "Bay Theatre",
+   "coord": "Point(-122.384104 47.668943)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306522",
+   "itemLabel": "Beacon Theatre",
+   "coord": "Point(-122.3156289 47.5819313)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306525",
+   "itemLabel": "Blue Mouse Theatre",
+   "coord": "Point(-122.3353463 47.6103946)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306543",
+   "itemLabel": "Broadway Market Cinemas",
+   "coord": "Point(-122.321493 47.622559)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306566",
+   "itemLabel": "Capitol Theatre",
+   "coord": "Point(-122.338014 47.6100124)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306571",
+   "itemLabel": "Class A Theatre",
+   "coord": "Point(-122.337795 47.6097479)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306579",
+   "itemLabel": "Columbia Theatre",
+   "coord": "Point(-122.3382583 47.6088511)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306585",
+   "itemLabel": "Dream Theatre",
+   "coord": "Point(-122.3342004 47.6026041)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306591",
+   "itemLabel": "Embassy Theatre",
+   "coord": "Point(-122.3371451 47.6090124)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306595",
+   "itemLabel": "Empress Theatre",
+   "coord": "Point(-122.381691 47.6686745)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306597",
+   "itemLabel": "Exhibit Theater",
+   "coord": "Point(-122.3345087 47.6045015)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306601",
+   "itemLabel": "Florence Theatre",
+   "coord": "Point(-122.331896 47.602136)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306603",
+   "itemLabel": "Fremont Theatre",
+   "coord": "Point(-122.3488275 47.650349)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306607",
+   "itemLabel": "Granada Theatre",
+   "coord": "Point(-122.3869341 47.5570313)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306614",
+   "itemLabel": "Green Lake Theater",
+   "coord": "Point(-122.3252185 47.6804207)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306617",
+   "itemLabel": "Green Lake Theatre",
+   "coord": "Point(-122.324947 47.680002)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306645",
+   "itemLabel": "Kokusai Theater",
+   "coord": "Point(-122.3249543 47.5987318)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306650",
+   "itemLabel": "Liberty Theatre",
+   "coord": "Point(-122.3403199 47.6091694)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306653",
+   "itemLabel": "Little Theatre",
+   "coord": "Point(-122.3076052 47.6079023)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306655",
+   "itemLabel": "Madrona Theatre",
+   "coord": "Point(-122.2952684 47.607976)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306658",
+   "itemLabel": "Magnolia Theatre",
+   "coord": "Point(-122.4007733 47.6403444)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306660",
+   "itemLabel": "McEachern Auditorium",
+   "coord": "Point(-122.3015262 47.6449753)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306663",
+   "itemLabel": "Metropolitan Theatre",
+   "coord": "Point(-122.3342317 47.6084773)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306665",
+   "itemLabel": "Mission Theatre, 4th Avenue",
+   "coord": "Point(-122.337204 47.610756)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306668",
+   "itemLabel": "Mission Theatre, Georgetown",
+   "coord": "Point(-122.319109 47.551403)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306677",
+   "itemLabel": "Mount Baker Theatre",
+   "coord": "Point(-122.300107 47.599197)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306680",
+   "itemLabel": "Music Box Theatre",
+   "coord": "Point(-122.335094 47.6101793)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306683",
+   "itemLabel": "Newmark Cinemas",
+   "coord": "Point(-122.338787 47.608644)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306686",
+   "itemLabel": "Northgate Theatre",
+   "coord": "Point(-122.3235542 47.7070578)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306690",
+   "itemLabel": "Olympic Theatre",
+   "coord": "Point(-122.363838 47.676213)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306704",
+   "itemLabel": "Palomar Theatre",
+   "coord": "Point(-122.33589 47.60803)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253|Q24354",
+   "classLabels": "destroyed building or structure|movie theater|theatre building"
+  },
+  {
+   "item": "Q43306713",
+   "itemLabel": "Queen Anne Theatre",
+   "coord": "Point(-122.357382 47.633377)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306716",
+   "itemLabel": "Regal Meridian 16",
+   "coord": "Point(-122.333563 47.611671)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306726",
+   "itemLabel": "Rivoli Theatre",
+   "coord": "Point(-122.3362383 47.6046864)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253|Q52815",
+   "classLabels": "destroyed building or structure|movie theater|adult movie theater"
+  },
+  {
+   "item": "Q43306730",
+   "itemLabel": "Rosebud Movie Palace",
+   "coord": "Point(-122.3302607 47.6007869)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306743",
+   "itemLabel": "Strand Theatre",
+   "coord": "Point(-122.3358661 47.6059845)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306747",
+   "itemLabel": "Sultan's Lavender Cinema",
+   "coord": "Point(-122.3385716 47.6071998)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306750",
+   "itemLabel": "Tilikum Theater",
+   "coord": "Point(-122.336708 47.61011)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306752",
+   "itemLabel": "Town Theater",
+   "coord": "Point(-122.335397 47.6107323)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306761",
+   "itemLabel": "Toyo Cinema",
+   "coord": "Point(-122.2776739 47.551179)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306769",
+   "itemLabel": "UA 150",
+   "coord": "Point(-122.3400407 47.6153919)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306786",
+   "itemLabel": "Venetian Theatre",
+   "coord": "Point(-122.3135373 47.6152693)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306790",
+   "itemLabel": "Victory Theater",
+   "coord": "Point(-122.3077916 47.5908846)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43306792",
+   "itemLabel": "Wilkes Theatre",
+   "coord": "Point(-122.3364918 47.611662)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43306803",
+   "itemLabel": "Ye College Playhouse",
+   "coord": "Point(-122.3131504 47.6603512)",
+   "sitelinks": "0",
+   "classes": "Q19860854|Q41253",
+   "classLabels": "destroyed building or structure|movie theater"
+  },
+  {
+   "item": "Q43307085",
+   "itemLabel": "White Center Theatre",
+   "coord": "Point(-122.3553497 47.5173753)",
+   "sitelinks": "0",
+   "classes": "Q41253",
+   "classLabels": "movie theater"
+  },
+  {
+   "item": "Q43895374",
+   "itemLabel": "TerrainWorks",
+   "coord": "Point(-122.39719 47.670432)",
+   "sitelinks": "0",
+   "classes": "Q163740",
+   "classLabels": "nonprofit organization"
+  },
+  {
+   "item": "Q43895383",
+   "itemLabel": "Institute for Educational Inquiry",
+   "coord": "Point(-122.331986 47.726376)",
+   "sitelinks": "0",
+   "classes": "Q163740",
+   "classLabels": "nonprofit organization"
+  },
+  {
+   "item": "Q43896399",
+   "itemLabel": "Fred Hutchinson/University of Washington Cancer Consortium",
+   "coord": "Point(-122.33161 47.627313)",
+   "sitelinks": "0",
+   "classes": "Q13226383",
+   "classLabels": "facility"
+  },
+  {
+   "item": "Q43896638",
+   "itemLabel": "Altius Institute for Biomedical Sciences",
+   "coord": "Point(-122.347511 47.612516)",
+   "sitelinks": "0",
+   "classes": "Q163740",
+   "classLabels": "nonprofit organization"
+  },
+  {
+   "item": "Q4644612",
+   "itemLabel": "The Greater Seattle Bureau of Fearless Ideas",
+   "coord": "Point(-122.355 47.6901)",
+   "sitelinks": "1",
+   "classes": "Q163740",
+   "classLabels": "nonprofit organization"
+  },
+  {
+   "item": "Q4671413",
+   "itemLabel": "Academy for Young Scholars",
+   "coord": "Point(-122.312 47.6544)",
+   "sitelinks": "1",
+   "classes": "Q2385804",
+   "classLabels": "educational institution"
+  },
+  {
+   "item": "Q47007397",
+   "itemLabel": "Elliot Bay Petroglyphs",
+   "coord": "Point(-122.35 47.565)",
+   "sitelinks": "1",
+   "classes": "Q1640824",
+   "classLabels": "inscription"
+  },
+  {
+   "item": "Q4700847",
+   "itemLabel": "Aki Kurose Middle School Academy",
+   "coord": "Point(-122.282561 47.546131)",
+   "sitelinks": "1",
+   "classes": "Q149566",
+   "classLabels": "middle school"
+  },
+  {
+   "item": "Q4705495",
+   "itemLabel": "Aladdin Industries",
+   "coord": "Point(-122.350113 47.613027)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q47093015",
+   "itemLabel": "University of Washington College of Engineering",
+   "coord": "Point(-122.304453 47.654281)",
+   "sitelinks": "2",
+   "classes": "Q1663017|Q180958",
+   "classLabels": "engineering college|faculty"
+  },
+  {
+   "item": "Q4732551",
+   "itemLabel": "Allied Arts of Seattle",
+   "coord": "Point(-122.279 47.6348)",
+   "sitelinks": "1",
+   "classes": "Q163740",
+   "classLabels": "nonprofit organization"
+  },
+  {
+   "item": "Q4743113",
+   "itemLabel": "American Automatic Control Council",
+   "coord": "Point(-122.305707 47.65323)",
+   "sitelinks": "3",
+   "classes": "Q43229",
+   "classLabels": "organization"
+  },
+  {
+   "item": "Q4782851",
+   "itemLabel": "Aqueduct Press",
+   "coord": "Point(-122.316666666 47.566666666)",
+   "sitelinks": "2",
+   "classes": "Q2085381",
+   "classLabels": "publishing house"
+  },
+  {
+   "item": "Q4788554",
+   "itemLabel": "area code 206",
+   "coord": "Point(-122.341 47.6193)",
+   "sitelinks": "5",
+   "classes": "Q949616",
+   "classLabels": "area code in North America"
+  },
+  {
+   "item": "Q4788589",
+   "itemLabel": "Area code 564",
+   "coord": "Point(-122.333055555 47.609722222)",
+   "sitelinks": "2",
+   "classes": "Q949616",
+   "classLabels": "area code in North America"
+  },
+  {
+   "item": "Q4801237",
+   "itemLabel": "Artist Trust",
+   "coord": "Point(-122.317 47.6186)",
+   "sitelinks": "1",
+   "classes": "Q163740|Q20897549",
+   "classLabels": "nonprofit organization|art institution"
+  },
+  {
+   "item": "Q4849468",
+   "itemLabel": "Bakke Graduate University",
+   "coord": "Point(-122.329 47.6082)",
+   "sitelinks": "2",
+   "classes": "Q233324|Q23002054",
+   "classLabels": "seminary|private not-for-profit educational institution"
+  },
+  {
+   "item": "Q4875926",
+   "itemLabel": "Beacon Food Forest",
+   "coord": "Point(-122.313 47.5692)",
+   "sitelinks": "2",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q4875945",
+   "itemLabel": "Beacon Hill",
+   "coord": "Point(-122.315 47.58)",
+   "sitelinks": "4",
+   "classes": "Q123705",
+   "classLabels": "neighborhood"
+  },
+  {
+   "item": "Q48848899",
+   "itemLabel": "Housing at the University of Washington",
+   "coord": "Point(-122.316944444 47.655833333)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q48979682",
+   "itemLabel": "Beacon Hill North Reservoir Dam",
+   "coord": "Point(-122.311111111 47.571388888)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q48979683",
+   "itemLabel": "Beacon Hill South Reservoir Dam",
+   "coord": "Point(-122.311111111 47.569722222)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q48980555",
+   "itemLabel": "Bitter Lake Reservoir Dam",
+   "coord": "Point(-122.347777777 47.729722222)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q48988070",
+   "itemLabel": "Green Lake Reservoir Dam",
+   "coord": "Point(-122.314444444 47.681388888)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q48992364",
+   "itemLabel": "Lincoln Reservoir Dam",
+   "coord": "Point(-122.319444444 47.616388888)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q48993095",
+   "itemLabel": "Magnolia Manor Reservoir Dam",
+   "coord": "Point(-122.391111111 47.651388888)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q48993194",
+   "itemLabel": "Maple Leaf Reservoir Dam",
+   "coord": "Point(-122.316111111 47.689722222)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q48999785",
+   "itemLabel": "South 120th Street Reservoir Dam",
+   "coord": "Point(-122.314444444 47.496388888)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q48999944",
+   "itemLabel": "Southwest Myrtle Street Reservoir Dam",
+   "coord": "Point(-122.377777777 47.539722222)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q49000964",
+   "itemLabel": "SW Genesee Street Dam",
+   "coord": "Point(-122.367777777 47.564722222)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q49002742",
+   "itemLabel": "Volunteer Park Reservoir Dam",
+   "coord": "Point(-122.317777777 47.629722222)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q49003195",
+   "itemLabel": "West Seattle Reservoir Dam",
+   "coord": "Point(-122.342777777 47.524722222)",
+   "sitelinks": "1",
+   "classes": "Q12323",
+   "classLabels": "dam"
+  },
+  {
+   "item": "Q49024302",
+   "itemLabel": "Denny Hill",
+   "coord": "Point(-122.3221 47.609)",
+   "sitelinks": "1",
+   "classes": "Q8502",
+   "classLabels": "mountain"
+  },
+  {
+   "item": "Q49028966",
+   "itemLabel": "First Hill",
+   "coord": "Point(-122.240833333 47.5825)",
+   "sitelinks": "1",
+   "classes": "Q54050",
+   "classLabels": "hill"
+  },
+  {
+   "item": "Q4904923",
+   "itemLabel": "Big Al Brewing",
+   "coord": "Point(-122.353 47.5143)",
+   "sitelinks": "2",
+   "classes": "Q783794",
+   "classLabels": "company"
+  },
+  {
+   "item": "Q49066149",
+   "itemLabel": "Queen Anne Hill",
+   "coord": "Point(-122.3551 47.6323)",
+   "sitelinks": "1",
+   "classes": "Q54050",
+   "classLabels": "hill"
+  },
+  {
+   "item": "Q49111137",
+   "itemLabel": "Duwamish East Waterway",
+   "coord": "Point(-122.34465 47.58111)",
+   "sitelinks": "1",
+   "classes": "Q39594|Q1210950",
+   "classLabels": "bay|channel"
+  },
+  {
+   "item": "Q49111141",
+   "itemLabel": "Duwamish West Waterway",
+   "coord": "Point(-122.359722222 47.579166666)",
+   "sitelinks": "1",
+   "classes": "Q39594|Q1210950",
+   "classLabels": "bay|channel"
+  },
+  {
+   "item": "Q49111176",
+   "itemLabel": "East Passage",
+   "coord": "Point(-122.417777777 47.505277777)",
+   "sitelinks": "1",
+   "classes": "Q1210950",
+   "classLabels": "channel"
+  },
+  {
+   "item": "Q49111296",
+   "itemLabel": "First Avenue Eigth Avenue Reach",
+   "coord": "Point(-122.329444444 47.537777777)",
+   "sitelinks": "1",
+   "classes": "Q1210950",
+   "classLabels": "channel"
+  },
+  {
+   "item": "Q49111324",
+   "itemLabel": "Fourteenth Avenue Bridge Reach",
+   "coord": "Point(-122.307222222 47.520555555)",
+   "sitelinks": "1",
+   "classes": "Q1210950",
+   "classLabels": "channel"
+  },
+  {
+   "item": "Q49111363",
+   "itemLabel": "Georgetown Reach",
+   "coord": "Point(-122.343055555 47.556666666)",
+   "sitelinks": "1",
+   "classes": "Q1210950",
+   "classLabels": "channel"
+  },
+  {
+   "item": "Q49111456",
+   "itemLabel": "Harbor Island Reach",
+   "coord": "Point(-122.354722222 47.571388888)",
+   "sitelinks": "1",
+   "classes": "Q39594|Q1210950",
+   "classLabels": "bay|channel"
+  },
+  {
+   "item": "Q49113348",
+   "itemLabel": "South Park Reach",
+   "coord": "Point(-122.316666666 47.530277777)",
+   "sitelinks": "1",
+   "classes": "Q1210950",
+   "classLabels": "channel"
+  },
+  {
+   "item": "Q49113995",
+   "itemLabel": "Union Bay Reach",
+   "coord": "Point(-122.288611111 47.646944444)",
+   "sitelinks": "1",
+   "classes": "Q1210950",
+   "classLabels": "channel"
+  },
+  {
+   "item": "Q4921944",
+   "itemLabel": "Black Sun",
+   "coord": "Point(-122.315 47.63)",
+   "sitelinks": "1",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q4929689",
+   "itemLabel": "Blue Ridge",
+   "coord": "Point(-122.378 47.7029)",
+   "sitelinks": "3",
+   "classes": "Q515|Q123705",
+   "classLabels": "city|neighborhood"
+  },
+  {
+   "item": "Q49302949",
+   "itemLabel": "Hicklin Lake",
+   "coord": "Point(-122.344722222 47.503333333)",
+   "sitelinks": "2",
+   "classes": "Q23397",
+   "classLabels": "lake"
+  },
+  {
+   "item": "Q49320245",
+   "itemLabel": "Brighton Beach",
+   "coord": "Point(-122.257777777 47.543888888)",
+   "sitelinks": "1",
+   "classes": "Q40080",
+   "classLabels": "beach"
+  },
+  {
+   "item": "Q49322101",
+   "itemLabel": "Mount Baker Beach",
+   "coord": "Point(-122.287777777 47.584166666)",
+   "sitelinks": "1",
+   "classes": "Q40080",
+   "classLabels": "beach"
+  },
+  {
+   "item": "Q49324397",
+   "itemLabel": "Pritchett Island Beach",
+   "coord": "Point(-122.263055555 47.529444444)",
+   "sitelinks": "1",
+   "classes": "Q40080",
+   "classLabels": "beach"
+  },
+  {
+   "item": "Q4935845",
+   "itemLabel": "Bobo",
+   "coord": "Point(-122.31 47.661)",
+   "sitelinks": "1",
+   "classes": "Q33506",
+   "classLabels": "museum"
+  },
+  {
+   "item": "Q49372279",
+   "itemLabel": "Andrews Bay",
+   "coord": "Point(-122.258888888 47.556666666)",
+   "sitelinks": "1",
+   "classes": "Q39594",
+   "classLabels": "bay"
+  },
+  {
+   "item": "Q49375620",
+   "itemLabel": "Cozy Cove",
+   "coord": "Point(-122.224444444 47.646388888)",
+   "sitelinks": "1",
+   "classes": "Q39594",
+   "classLabels": "bay"
+  },
+  {
+   "item": "Q49377145",
+   "itemLabel": "Fairweather Bay",
+   "coord": "Point(-122.235277777 47.643333333)",
+   "sitelinks": "1",
+   "classes": "Q39594",
+   "classLabels": "bay"
+  },
+  {
+   "item": "Q49388320",
+   "itemLabel": "Pontiac Bay",
+   "coord": "Point(-122.261944444 47.688333333)",
+   "sitelinks": "1",
+   "classes": "Q39594",
+   "classLabels": "bay"
+  },
+  {
+   "item": "Q49392334",
+   "itemLabel": "Smith Cove Waterway",
+   "coord": "Point(-122.3814735 47.6289536)",
+   "sitelinks": "1",
+   "classes": "Q39594",
+   "classLabels": "bay"
+  },
+  {
+   "item": "Q49395366",
+   "itemLabel": "Wolf Bay",
+   "coord": "Point(-122.266111111 47.664166666)",
+   "sitelinks": "1",
+   "classes": "Q39594",
+   "classLabels": "bay"
+  },
+  {
+   "item": "Q49470044",
+   "itemLabel": "Pigeon Point",
+   "coord": "Point(-122.359166666 47.570555555)",
+   "sitelinks": "1",
+   "classes": "Q107679",
+   "classLabels": "cliff"
+  },
+  {
+   "item": "Q49473166",
+   "itemLabel": "Atlantic City Park",
+   "coord": "Point(-122.262222222 47.527222222)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49473542",
+   "itemLabel": "Ballard Playground",
+   "coord": "Point(-122.391388888 47.6725)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49473935",
+   "itemLabel": "Bayview Playground",
+   "coord": "Point(-122.386666666 47.643611111)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49474729",
+   "itemLabel": "Big Finn Hill Park",
+   "coord": "Point(-122.239722222 47.714444444)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49477875",
+   "itemLabel": "Chelsea Park",
+   "coord": "Point(-122.348055555 47.481111111)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49479345",
+   "itemLabel": "Columbia Park",
+   "coord": "Point(-122.268611111 47.5575)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49479594",
+   "itemLabel": "Community Park",
+   "coord": "Point(-122.239166666 47.615555555)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49482367",
+   "itemLabel": "Dearborn Park",
+   "coord": "Point(-122.294722222 47.552777777)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49485000",
+   "itemLabel": "Earlington Park",
+   "coord": "Point(-122.2275 47.480555555)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49488047",
+   "itemLabel": "Fairmont Park",
+   "coord": "Point(-122.380277777 47.553611111)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49488159",
+   "itemLabel": "Fairweather Park",
+   "coord": "Point(-122.236111111 47.6375)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49492295",
+   "itemLabel": "Froula Park",
+   "coord": "Point(-122.313333333 47.680833333)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49493274",
+   "itemLabel": "Genesee Park",
+   "coord": "Point(-122.278888888 47.562777777)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49493835",
+   "itemLabel": "Gilman Playground",
+   "coord": "Point(-122.369444444 47.666944444)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49496630",
+   "itemLabel": "Groveland Park",
+   "coord": "Point(-122.234166666 47.551666666)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49501760",
+   "itemLabel": "Hilltop Park",
+   "coord": "Point(-122.3 47.49)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49502668",
+   "itemLabel": "Homestead Field",
+   "coord": "Point(-122.230833333 47.573888888)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49505115",
+   "itemLabel": "Inglemoor County Park",
+   "coord": "Point(-122.225833333 47.736944444)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49505284",
+   "itemLabel": "Intramural Sports Field Number 3",
+   "coord": "Point(-122.300555555 47.654722222)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49505588",
+   "itemLabel": "Island Crest Park",
+   "coord": "Point(-122.224166666 47.551388888)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49511633",
+   "itemLabel": "Q49511633",
+   "coord": "Point(-122.33318 47.59982)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49513801",
+   "itemLabel": "Lake Washington Boulevard Park",
+   "coord": "Point(-122.285833333 47.582222222)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49513893",
+   "itemLabel": "Lakeridge Park",
+   "coord": "Point(-122.246944444 47.506944444)",
+   "sitelinks": "2",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49514208",
+   "itemLabel": "Lakewood Park",
+   "coord": "Point(-122.344166666 47.504444444)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49517124",
+   "itemLabel": "Lincoln Park",
+   "coord": "Point(-122.317777777 47.616666666)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49520004",
+   "itemLabel": "Loyal Heights Playground",
+   "coord": "Point(-122.383055555 47.683888888)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49520750",
+   "itemLabel": "Magnolia Park",
+   "coord": "Point(-122.410833333 47.638611111)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49520752",
+   "itemLabel": "Magnolia Playground",
+   "coord": "Point(-122.399444444 47.641111111)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49524481",
+   "itemLabel": "Medina Park",
+   "coord": "Point(-122.233888888 47.618888888)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49525376",
+   "itemLabel": "Mercerdale Field",
+   "coord": "Point(-122.235277777 47.580833333)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49527897",
+   "itemLabel": "Montlake Playground",
+   "coord": "Point(-122.308888888 47.641944444)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49543478",
+   "itemLabel": "Pioneer Park",
+   "coord": "Point(-122.220833333 47.543888888)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49547383",
+   "itemLabel": "Qwest Field",
+   "coord": "Point(-122.332777777 47.595)",
+   "sitelinks": "2",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49551701",
+   "itemLabel": "Riverview Playfield",
+   "coord": "Point(-122.348333333 47.538611111)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49553136",
+   "itemLabel": "Rogers Park",
+   "coord": "Point(-122.359166666 47.645)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49556453",
+   "itemLabel": "Salmon Bay Park",
+   "coord": "Point(-122.381666666 47.679444444)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49558246",
+   "itemLabel": "Sayres Memorial Park",
+   "coord": "Point(-122.277222222 47.571111111)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49559680",
+   "itemLabel": "Seola Park",
+   "coord": "Point(-122.372777777 47.501666666)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49562342",
+   "itemLabel": "Skyway Park",
+   "coord": "Point(-122.2425 47.493611111)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49569904",
+   "itemLabel": "The Glads Sculpture Garden",
+   "coord": "Point(-122.306388888 47.648333333)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49573374",
+   "itemLabel": "University of Washington Intramural Sports Field Number 1",
+   "coord": "Point(-122.295 47.660277777)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49573376",
+   "itemLabel": "University of Washington Medicinal Herb Garden",
+   "coord": "Point(-122.308888888 47.6525)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49573380",
+   "itemLabel": "University of Washington Soccer Field",
+   "coord": "Point(-122.298333333 47.655555555)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49573382",
+   "itemLabel": "University of Washington Tennis Courts",
+   "coord": "Point(-122.301111111 47.652777777)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49573384",
+   "itemLabel": "University of Washington Womens Soccer Field",
+   "coord": "Point(-122.3 47.650277777)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49575135",
+   "itemLabel": "View Ridge Park",
+   "coord": "Point(-122.281111111 47.680277777)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49577247",
+   "itemLabel": "Washington Park",
+   "coord": "Point(-122.296111111 47.638888888)",
+   "sitelinks": "2",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49579017",
+   "itemLabel": "West Seattle Recreation Center",
+   "coord": "Point(-122.370555555 47.559722222)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49579222",
+   "itemLabel": "Westcrest Park",
+   "coord": "Point(-122.340277777 47.524166666)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49581929",
+   "itemLabel": "Windermere Park",
+   "coord": "Point(-122.267222222 47.664722222)",
+   "sitelinks": "1",
+   "classes": "Q22698",
+   "classLabels": "park"
+  },
+  {
+   "item": "Q49657117",
+   "itemLabel": "Marsh Island",
+   "coord": "Point(-122.296666666 47.646111111)",
+   "sitelinks": "1",
+   "classes": "Q23442",
+   "classLabels": "island"
+  },
+  {
+   "item": "Q4965875",
+   "itemLabel": "BrickCon",
+   "coord": "Point(-122.350886 47.621496)",
+   "sitelinks": "5",
+   "classes": "Q15275719",
+   "classLabels": "recurring event"
+  },
+  {
+   "item": "Q49665543",
+   "itemLabel": "Ohlers Island",
+   "coord": "Point(-122.266388888 47.563611111)",
+   "sitelinks": "1",
+   "classes": "Q23442",
+   "classLabels": "island"
+  },
+  {
+   "item": "Q4967492",
+   "itemLabel": "Bright Water School",
+   "coord": "Point(-122.321 47.6328)",
+   "sitelinks": "2",
+   "classes": "Q3914",
+   "classLabels": "school"
+  },
+  {
+   "item": "Q4967575",
+   "itemLabel": "Brighton",
+   "coord": "Point(-122.275 47.5461)",
+   "sitelinks": "1",
+   "classes": "Q123705",
+   "classLabels": "neighborhood"
+  },
+  {
+   "item": "Q49688747",
+   "itemLabel": "Harrison Ridge",
+   "coord": "Point(-122.288611111 47.620833333)",
+   "sitelinks": "1",
+   "classes": "Q740445",
+   "classLabels": "ridge"
+  },
+  {
+   "item": "Q4972260",
+   "itemLabel": "Broadmoor Golf Club",
+   "coord": "Point(-122.295 47.6314)",
+   "sitelinks": "1",
+   "classes": "Q2022036|Q811430",
+   "classLabels": "golf club|fixed construction"
+  },
+  {
+   "item": "Q4972319",
+   "itemLabel": "Broadview",
+   "coord": "Point(-122.368 47.7207)",
+   "sitelinks": "4",
+   "classes": "Q123705",
+   "classLabels": "neighborhood"
+  },
+  {
+   "item": "Q49800702",
+   "itemLabel": "Fairmount Gulch",
+   "coord": "Point(-122.378611111 47.586944444)",
+   "sitelinks": "1",
+   "classes": "Q39816",
+   "classLabels": "valley"
+  },
+  {
+   "item": "Q49841945",
+   "itemLabel": "Arrowhead Point",
+   "coord": "Point(-122.266944444 47.738055555)",
+   "sitelinks": "1",
+   "classes": "Q185113",
+   "classLabels": "cape"
+  },
+  {
+   "item": "Q49844546",
+   "itemLabel": "Bailey Peninsula",
+   "coord": "Point(-122.251111111 47.554722222)",
+   "sitelinks": "1",
+   "classes": "Q185113",
+   "classLabels": "cape"
+  },
+  {
+   "item": "Q49871789",
+   "itemLabel": "Calkins Point",
+   "coord": "Point(-122.2275 47.595277777)",
+   "sitelinks": "1",
+   "classes": "Q185113",
+   "classLabels": "cape"
+  },
+  {
+   "item": "Q49876833",
+   "itemLabel": "Champaign Point",
+   "coord": "Point(-122.244166666 47.700555555)",
+   "sitelinks": "1",
+   "classes": "Q185113",
+   "classLabels": "cape"
+  },
+  {
+   "item": "Q49887921",
+   "itemLabel": "Dabney Point",
+   "coord": "Point(-122.235277777 47.613888888)",
+   "sitelinks": "1",
+   "classes": "Q185113",
+   "classLabels": "cape"
+  },
+  {
+   "item": "Q49895117",
+   "itemLabel": "Dolphin Point",
+   "coord": "Point(-122.451388888 47.502777777)",
+   "sitelinks": "1",
+   "classes": "Q185113",
+   "classLabels": "cape"
+  },
+  {
+   "item": "Q49907451",
+   "itemLabel": "Faben Point",
+   "coord": "Point(-122.253055555 47.5925)",
+   "sitelinks": "1",
+   "classes": "Q185113",
+   "classLabels": "cape"
+  },
+  {
+   "item": "Q50035665",
+   "itemLabel": "The Seattle Institute for Cardiac Research",
+   "coord": "Point(-122.30758 47.648971)",
+   "sitelinks": "0",
+   "classes": "Q43229",
+   "classLabels": "organization"
+  }
+ ]
+}

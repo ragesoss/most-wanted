@@ -1,0 +1,294 @@
+{
+ "format_version": "0.1",
+ "geohash": "c22yx",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q49000964",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49000964",
+    "label": "SW Genesee Street Dam",
+    "classes": [
+     "Q12323"
+    ],
+    "classifier_labels": [
+     "dam"
+    ]
+   },
+   "geo": {
+    "lat": 47.564722222,
+    "lon": -122.367777777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49000964"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49000964 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49111137",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49111137",
+    "label": "Duwamish East Waterway",
+    "classes": [
+     "Q1210950",
+     "Q39594"
+    ],
+    "classifier_labels": [
+     "water",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.58111,
+    "lon": -122.34465,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49111137"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49111137 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49111141",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49111141",
+    "label": "Duwamish West Waterway",
+    "classes": [
+     "Q1210950",
+     "Q39594"
+    ],
+    "classifier_labels": [
+     "water",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.579166666,
+    "lon": -122.359722222,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49111141"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49111141 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49111456",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49111456",
+    "label": "Harbor Island Reach",
+    "classes": [
+     "Q1210950",
+     "Q39594"
+    ],
+    "classifier_labels": [
+     "water",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.571388888,
+    "lon": -122.354722222,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49111456"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49111456 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49488047",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49488047",
+    "label": "Fairmont Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.553611111,
+    "lon": -122.380277777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49488047"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49488047 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49579017",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49579017",
+    "label": "West Seattle Recreation Center",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.559722222,
+    "lon": -122.370555555,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49579017"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49579017 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306607",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306607",
+    "label": "Granada Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.5570313,
+    "lon": -122.3869341,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306607"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306607 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  }
+ ]
+}

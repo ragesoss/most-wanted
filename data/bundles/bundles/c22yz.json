@@ -1,0 +1,411 @@
+{
+ "format_version": "0.1",
+ "geohash": "c22yz",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q113245056",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113245056",
+    "label": "Centennial Park",
+    "classes": [
+     "Q22746"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.6225,
+    "lon": -122.366388888,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113245056"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113245056 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q110995698",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q110995698",
+    "label": "Angie's Umbrella",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.6114,
+    "lon": -122.3452,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q110995698"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q110995698 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111169466",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111169466",
+    "label": "Sonic Bloom",
+    "classes": [
+     "Q4502142"
+    ],
+    "classifier_labels": [
+     "artwork"
+    ]
+   },
+   "geo": {
+    "lat": 47.62,
+    "lon": -122.3503,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111169466"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111169466 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113245162",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113245162",
+    "label": "Echo",
+    "classes": [
+     "Q4502142"
+    ],
+    "classifier_labels": [
+     "artwork"
+    ]
+   },
+   "geo": {
+    "lat": 47.61525,
+    "lon": -122.355638888,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113245162"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113245162 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113427904",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113427904",
+    "label": "Adjacent, Against, Upon",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.619444444,
+    "lon": -122.361666666,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113427904"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113427904 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49392334",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49392334",
+    "label": "Smith Cove Waterway",
+    "classes": [
+     "Q39594"
+    ],
+    "classifier_labels": [
+     "water",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.6289536,
+    "lon": -122.3814735,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49392334"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49392334 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393882",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393882",
+    "label": "Seattle Marriott Waterfront",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61084,
+    "lon": -122.34729,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393882"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393882 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q118187020",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q118187020",
+    "label": "Neototems",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.6223,
+    "lon": -122.353,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q118187020"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q118187020 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43305860",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43305860",
+    "label": "Pacific Science Center IMAX Theatres",
+    "classes": [
+     "Q41253",
+     "Q42034610"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6193976,
+    "lon": -122.3514414,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43305860"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43305860 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306713",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306713",
+    "label": "Queen Anne Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.633377,
+    "lon": -122.357382,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306713"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306713 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  }
+ ]
+}

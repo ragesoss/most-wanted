@@ -1,0 +1,291 @@
+{
+ "format_version": "0.1",
+ "geohash": "c22zn",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q120142518",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q120142518",
+    "label": "Rupee Bar",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.674861111,
+    "lon": -122.387777777,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q120142518"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q120142518 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113212558",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113212558",
+    "label": "Lockspot Cafe",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.667777777,
+    "lon": -122.395833333,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113212558"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113212558 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q48993095",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q48993095",
+    "label": "Magnolia Manor Reservoir Dam",
+    "classes": [
+     "Q12323"
+    ],
+    "classifier_labels": [
+     "dam"
+    ]
+   },
+   "geo": {
+    "lat": 47.651388888,
+    "lon": -122.391111111,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q48993095"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q48993095 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49473542",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49473542",
+    "label": "Ballard Playground",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.6725,
+    "lon": -122.391388888,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49473542"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49473542 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49520750",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49520750",
+    "label": "Magnolia Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.638611111,
+    "lon": -122.410833333,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49520750"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49520750 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49520752",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49520752",
+    "label": "Magnolia Playground",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.641111111,
+    "lon": -122.399444444,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49520752"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49520752 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306658",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306658",
+    "label": "Magnolia Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6403444,
+    "lon": -122.4007733,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306658"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306658 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  }
+ ]
+}

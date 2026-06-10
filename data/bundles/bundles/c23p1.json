@@ -1,0 +1,326 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23p1",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q49577247",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49577247",
+    "label": "Washington Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.638888888,
+    "lon": -122.296111111,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49577247"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49577247 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49113995",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49113995",
+    "label": "Union Bay Reach",
+    "classes": [
+     "Q1210950"
+    ],
+    "classifier_labels": [
+     "water"
+    ]
+   },
+   "geo": {
+    "lat": 47.646944444,
+    "lon": -122.288611111,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49113995"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49113995 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49395366",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49395366",
+    "label": "Wolf Bay",
+    "classes": [
+     "Q39594"
+    ],
+    "classifier_labels": [
+     "water",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.664166666,
+    "lon": -122.266111111,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49395366"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49395366 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49573374",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49573374",
+    "label": "University of Washington Intramural Sports Field Number 1",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.660277777,
+    "lon": -122.295,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49573374"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49573374 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49573380",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49573380",
+    "label": "University of Washington Soccer Field",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.655555555,
+    "lon": -122.298333333,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49573380"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49573380 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49575135",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49575135",
+    "label": "View Ridge Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.680277777,
+    "lon": -122.281111111,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49575135"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49575135 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49581929",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49581929",
+    "label": "Windermere Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.664722222,
+    "lon": -122.267222222,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49581929"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49581929 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49657117",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49657117",
+    "label": "Marsh Island",
+    "classes": [
+     "Q23442"
+    ],
+    "classifier_labels": [
+     "island",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.646111111,
+    "lon": -122.296666666,
+    "radius_m": 600
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49657117"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49657117 wdt:P18 [] }"
+   }
+  }
+ ]
+}

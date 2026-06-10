@@ -1,0 +1,127 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23p6",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q3306191",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q3306191",
+    "label": "A Sound Garden",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.6853,
+    "lon": -122.25,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 4
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q3306191"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q3306191 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49474729",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49474729",
+    "label": "Big Finn Hill Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.714444444,
+    "lon": -122.239722222,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49474729"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49474729 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49876833",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49876833",
+    "label": "Champaign Point",
+    "classes": [
+     "Q185113"
+    ],
+    "classifier_labels": [
+     "coastline",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.700555555,
+    "lon": -122.244166666,
+    "radius_m": 600
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49876833"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49876833 wdt:P18 [] }"
+   }
+  }
+ ]
+}

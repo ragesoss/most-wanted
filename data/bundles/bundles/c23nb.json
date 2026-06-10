@@ -1,0 +1,4229 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23nb",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q118451826",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q118451826",
+    "label": "Pride Place",
+    "classes": [
+     "Q41176"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.614704,
+    "lon": -122.321012,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 3
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q118451826"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q118451826 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q107630271",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q107630271",
+    "label": "Taku",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.61419,
+    "lon": -122.323155,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q107630271"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q107630271 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393881",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393881",
+    "label": "Thompson Seattle",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.610555555,
+    "lon": -122.341388888,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393881"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393881 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113097937",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113097937",
+    "label": "Goldfinch Tavern",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6075,
+    "lon": -122.339444444,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113097937"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113097937 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113245251",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113245251",
+    "label": "Hilton Seattle",
+    "classes": [
+     "Q41176"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.609166666,
+    "lon": -122.333055555,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113245251"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113245251 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113372049",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113372049",
+    "label": "Oriental Mart",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.608944444,
+    "lon": -122.340694444,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113372049"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113372049 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113372074",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113372074",
+    "label": "Matt's in the Market",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.608916666,
+    "lon": -122.340555555,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113372074"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113372074 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113372125",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113372125",
+    "label": "Mee Sum Pastry",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6093,
+    "lon": -122.3414,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113372125"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113372125 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q114771151",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q114771151",
+    "label": "Rione XIII",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.622083333,
+    "lon": -122.312861111,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q114771151"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q114771151 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q114772291",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q114772291",
+    "label": "The Crumpet Shop",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.609,
+    "lon": -122.3405,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q114772291"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q114772291 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q114779916",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q114779916",
+    "label": "Le Panier",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6098,
+    "lon": -122.3422,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q114779916"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q114779916 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q114810701",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q114810701",
+    "label": "Daily Dozen Doughnut Company",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6087,
+    "lon": -122.3403,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q114810701"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q114810701 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q114859624",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q114859624",
+    "label": "Pike Place Chowder",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6094,
+    "lon": -122.3412,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q114859624"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q114859624 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115109513",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115109513",
+    "label": "Sheraton Grand Seattle",
+    "classes": [
+     "Q41176"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.611111111,
+    "lon": -122.333888888,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115109513"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115109513 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115112016",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115112016",
+    "label": "Michou Deli",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6099,
+    "lon": -122.3423,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115112016"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115112016 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115122417",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115122417",
+    "label": "The Confectional",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6093,
+    "lon": -122.3414,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115122417"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115122417 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115188822",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115188822",
+    "label": "Joe's Bar and Grill",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.5985,
+    "lon": -122.3275,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115188822"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115188822 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115203047",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115203047",
+    "label": "Market Grill",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6088,
+    "lon": -122.341,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115203047"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115203047 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115227135",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115227135",
+    "label": "Turkish Delight",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6104,
+    "lon": -122.3431,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115227135"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115227135 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115259031",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115259031",
+    "label": "Askatu Bakery",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6147,
+    "lon": -122.3433,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115259031"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115259031 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115518551",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115518551",
+    "label": "Taurus Ox",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6271,
+    "lon": -122.3076,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115518551"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115518551 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115546879",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115546879",
+    "label": "Rubinstein Bagels",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6151,
+    "lon": -122.3402,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115546879"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115546879 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115609939",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115609939",
+    "label": "ʔálʔal Café",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6013,
+    "lon": -122.3314,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115609939"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115609939 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115649686",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115649686",
+    "label": "Terra Plata",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.614444444,
+    "lon": -122.328055555,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115649686"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115649686 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115649689",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115649689",
+    "label": "The Carlile Room",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.613527777,
+    "lon": -122.332444444,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115649689"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115649689 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115805566",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115805566",
+    "label": "Le Pichet",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6108,
+    "lon": -122.3426,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115805566"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115805566 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115813835",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115813835",
+    "label": "A+ Hong Kong Kitchen",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.5985,
+    "lon": -122.3265,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115813835"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115813835 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115966985",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115966985",
+    "label": "Coastal Kitchen",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6228,
+    "lon": -122.313,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115966985"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115966985 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q117806074",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q117806074",
+    "label": "Palace Kitchen",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6146,
+    "lon": -122.34,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q117806074"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q117806074 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q118347254",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q118347254",
+    "label": "Raised Doughnuts",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6128,
+    "lon": -122.3017,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q118347254"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q118347254 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49547383",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49547383",
+    "label": "Qwest Field",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.595,
+    "lon": -122.332777777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49547383"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49547383 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q4967492",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q4967492",
+    "label": "Bright Water School",
+    "classes": [
+     "Q3914"
+    ],
+    "classifier_labels": [
+     "school",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6328,
+    "lon": -122.321,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q4967492"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q4967492 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q102318397",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q102318397",
+    "label": "Four Seasons Hotel Seattle",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.60763,
+    "lon": -122.33941,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q102318397"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q102318397 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113245123",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113245123",
+    "label": "Nordstrom Downtown Seattle",
+    "classes": [
+     "Q41176"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.612386603,
+    "lon": -122.336290431,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113245123"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113245123 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113245215",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113245215",
+    "label": "Renaissance Seattle Hotel",
+    "classes": [
+     "Q41176"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.606666666,
+    "lon": -122.330833333,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113245215"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113245215 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113372092",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113372092",
+    "label": "White Swan Public House",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.629111111,
+    "lon": -122.331805555,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113372092"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113372092 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115519272",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115519272",
+    "label": "Dacha Diner",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6176,
+    "lon": -122.3266,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115519272"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115519272 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115809872",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115809872",
+    "label": "Phởcific Standard Time",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.614861111,
+    "lon": -122.337361111,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115809872"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115809872 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115814621",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115814621",
+    "label": "Communion Restaurant and Bar",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6131,
+    "lon": -122.3016,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115814621"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115814621 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115816687",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115816687",
+    "label": "Country Dough",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.610222222,
+    "lon": -122.342444444,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115816687"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115816687 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q119840600",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q119840600",
+    "label": "Dahlia Lounge",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.613055555,
+    "lon": -122.340277777,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q119840600"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q119840600 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q120355618",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q120355618",
+    "label": "Wild Ginger",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6088,
+    "lon": -122.3375,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q120355618"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q120355618 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q120398653",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q120398653",
+    "label": "Sitka and Spruce",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.614722222,
+    "lon": -122.328333333,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q120398653"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q120398653 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q120488014",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q120488014",
+    "label": "Marjorie",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6122,
+    "lon": -122.3019,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q120488014"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q120488014 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q48992364",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q48992364",
+    "label": "Lincoln Reservoir Dam",
+    "classes": [
+     "Q12323"
+    ],
+    "classifier_labels": [
+     "dam"
+    ]
+   },
+   "geo": {
+    "lat": 47.616388888,
+    "lon": -122.319444444,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q48992364"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q48992364 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49002742",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49002742",
+    "label": "Volunteer Park Reservoir Dam",
+    "classes": [
+     "Q12323"
+    ],
+    "classifier_labels": [
+     "dam"
+    ]
+   },
+   "geo": {
+    "lat": 47.629722222,
+    "lon": -122.317777777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49002742"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49002742 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q4921944",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q4921944",
+    "label": "Black Sun",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.63,
+    "lon": -122.315,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q4921944"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q4921944 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49517124",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49517124",
+    "label": "Lincoln Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.616666666,
+    "lon": -122.317777777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49517124"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49517124 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q105036749",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q105036749",
+    "label": "St. Joseph School",
+    "classes": [
+     "Q1138671",
+     "Q149566",
+     "Q9842"
+    ],
+    "classifier_labels": [
+     "school",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.625718213,
+    "lon": -122.308470908,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q105036749"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q105036749 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393654",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393654",
+    "label": "Embassy Suites by Hilton Seattle Downtown Pioneer Square",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.59797,
+    "lon": -122.33104,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393654"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393654 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393656",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393656",
+    "label": "Renaissance Seattle Hotel",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.60682,
+    "lon": -122.33059,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393656"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393656 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393658",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393658",
+    "label": "Kimpton Hotel Vintage Seattle",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.60758,
+    "lon": -122.33257,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393658"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393658 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393659",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393659",
+    "label": "W Seattle",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.60757,
+    "lon": -122.33379,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393659"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393659 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393861",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393861",
+    "label": "Kimpton Hotel Monaco Seattle",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.60703,
+    "lon": -122.33398,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393861"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393861 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393862",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393862",
+    "label": "Sheraton Grand Seattle",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61081,
+    "lon": -122.33385,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393862"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393862 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393864",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393864",
+    "label": "The Paramount Hotel",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61309,
+    "lon": -122.33331,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393864"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393864 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393865",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393865",
+    "label": "Hotel 1000, LXR Hotels & Resorts",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.60496,
+    "lon": -122.33631,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393865"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393865 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393866",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393866",
+    "label": "The Alexis Royal Sonesta Hotel Seattle",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.60491,
+    "lon": -122.33661,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393866"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393866 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393868",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393868",
+    "label": "Hotel Theodore",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61249,
+    "lon": -122.3343,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393868"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393868 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393869",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393869",
+    "label": "Motif Seattle, a Destination by Hyatt Hotel",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61002385,
+    "lon": -122.335338592,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393869"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393869 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393874",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393874",
+    "label": "The Charter Hotel Seattle, Curio Collection by Hilton",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61085,
+    "lon": -122.33987,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393874"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393874 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393875",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393875",
+    "label": "Pan Pacific Seattle",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61785,
+    "lon": -122.33801,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393875"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393875 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111393880",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111393880",
+    "label": "Hotel Ändra",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61331,
+    "lon": -122.34019,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111393880"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111393880 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111395314",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111395314",
+    "label": "Kimpton Palladian Hotel",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61198,
+    "lon": -122.34173,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111395314"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111395314 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111887790",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111887790",
+    "label": "The State Hotel",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.60947,
+    "lon": -122.33913,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111887790"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111887790 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111887792",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111887792",
+    "label": "The Sound Hotel Seattle Belltown, Tapestry Collection by Hilton",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61421,
+    "lon": -122.3421,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111887792"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111887792 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q118135978",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q118135978",
+    "label": "cloud haiku",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.615067,
+    "lon": -122.3376,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q118135978"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q118135978 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q118136891",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q118136891",
+    "label": "Sequence/Consequence",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.61298,
+    "lon": -122.33729,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q118136891"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q118136891 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q118136913",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q118136913",
+    "label": "Escape Destinations",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.61676,
+    "lon": -122.33788,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q118136913"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q118136913 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q118136978",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q118136978",
+    "label": "Transforest",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.618607,
+    "lon": -122.332855,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q118136978"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q118136978 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q38817000",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q38817000",
+    "label": "Grand Hyatt Seattle",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61242,
+    "lon": -122.33388,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q38817000"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q38817000 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q38838686",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q38838686",
+    "label": "Hyatt at Olive 8",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.61328,
+    "lon": -122.333277,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q38838686"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q38838686 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43305856",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43305856",
+    "label": "Orpheum Theatre, 3rd Avenue",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.60672,
+    "lon": -122.331057,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43305856"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43305856 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306497",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306497",
+    "label": "Alaska Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6020477,
+    "lon": -122.3322406,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306497"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306497 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306509",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306509",
+    "label": "AMC Pacific Place 11",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.612427,
+    "lon": -122.335349,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306509"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306509 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306512",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306512",
+    "label": "Atlas Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.598788,
+    "lon": -122.324682,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306512"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306512 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306525",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306525",
+    "label": "Blue Mouse Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6103946,
+    "lon": -122.3353463,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306525"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306525 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306543",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306543",
+    "label": "Broadway Market Cinemas",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.622559,
+    "lon": -122.321493,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306543"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306543 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306566",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306566",
+    "label": "Capitol Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6100124,
+    "lon": -122.338014,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306566"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306566 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306571",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306571",
+    "label": "Class A Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6097479,
+    "lon": -122.337795,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306571"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306571 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306579",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306579",
+    "label": "Columbia Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6088511,
+    "lon": -122.3382583,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306579"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306579 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306585",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306585",
+    "label": "Dream Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6026041,
+    "lon": -122.3342004,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306585"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306585 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306591",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306591",
+    "label": "Embassy Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6090124,
+    "lon": -122.3371451,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306591"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306591 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306597",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306597",
+    "label": "Exhibit Theater",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6045015,
+    "lon": -122.3345087,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306597"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306597 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306601",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306601",
+    "label": "Florence Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.602136,
+    "lon": -122.331896,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306601"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306601 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306645",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306645",
+    "label": "Kokusai Theater",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.5987318,
+    "lon": -122.3249543,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306645"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306645 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306650",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306650",
+    "label": "Liberty Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6091694,
+    "lon": -122.3403199,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306650"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306650 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306653",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306653",
+    "label": "Little Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6079023,
+    "lon": -122.3076052,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306653"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306653 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306663",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306663",
+    "label": "Metropolitan Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6084773,
+    "lon": -122.3342317,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306663"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306663 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306665",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306665",
+    "label": "Mission Theatre, 4th Avenue",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.610756,
+    "lon": -122.337204,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306665"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306665 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306677",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306677",
+    "label": "Mount Baker Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.599197,
+    "lon": -122.300107,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306677"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306677 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306680",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306680",
+    "label": "Music Box Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6101793,
+    "lon": -122.335094,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306680"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306680 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306683",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306683",
+    "label": "Newmark Cinemas",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.608644,
+    "lon": -122.338787,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306683"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306683 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306704",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306704",
+    "label": "Palomar Theatre",
+    "classes": [
+     "Q19860854",
+     "Q24354",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.60803,
+    "lon": -122.33589,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306704"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306704 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306716",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306716",
+    "label": "Regal Meridian 16",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.611671,
+    "lon": -122.333563,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306716"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306716 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306726",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306726",
+    "label": "Rivoli Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253",
+     "Q52815"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6046864,
+    "lon": -122.3362383,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306726"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306726 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306730",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306730",
+    "label": "Rosebud Movie Palace",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6007869,
+    "lon": -122.3302607,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306730"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306730 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306743",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306743",
+    "label": "Strand Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6059845,
+    "lon": -122.3358661,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306743"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306743 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306747",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306747",
+    "label": "Sultan's Lavender Cinema",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6071998,
+    "lon": -122.3385716,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306747"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306747 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306750",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306750",
+    "label": "Tilikum Theater",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.61011,
+    "lon": -122.336708,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306750"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306750 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306752",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306752",
+    "label": "Town Theater",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6107323,
+    "lon": -122.335397,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306752"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306752 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306769",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306769",
+    "label": "UA 150",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6153919,
+    "lon": -122.3400407,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306769"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306769 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306786",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306786",
+    "label": "Venetian Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6152693,
+    "lon": -122.3135373,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306786"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306786 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306792",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306792",
+    "label": "Wilkes Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.611662,
+    "lon": -122.3364918,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306792"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306792 wdt:P18 [] }"
+   }
+  }
+ ]
+}

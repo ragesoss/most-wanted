@@ -1,0 +1,1303 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23p0",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q105820841",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q105820841",
+    "label": "Stone Avenue Bridge",
+    "classes": [
+     "Q537127"
+    ],
+    "classifier_labels": [
+     "bridge"
+    ]
+   },
+   "geo": {
+    "lat": 47.645833333,
+    "lon": -122.343055555,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q105820841"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q105820841 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q108649500",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q108649500",
+    "label": "Statue of Don James",
+    "classes": [
+     "Q179700"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.651527777,
+    "lon": -122.303166666,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q108649500"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q108649500 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115804437",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115804437",
+    "label": "Joule",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.649722222,
+    "lon": -122.342361111,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115804437"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115804437 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q120679352",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q120679352",
+    "label": "Salare",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.675888888,
+    "lon": -122.301194444,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q120679352"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q120679352 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49505284",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49505284",
+    "label": "Intramural Sports Field Number 3",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.654722222,
+    "lon": -122.300555555,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49505284"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49505284 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49527897",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49527897",
+    "label": "Montlake Playground",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.641944444,
+    "lon": -122.308888888,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49527897"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49527897 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49569904",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49569904",
+    "label": "The Glads Sculpture Garden",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.648333333,
+    "lon": -122.306388888,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49569904"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49569904 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49573376",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49573376",
+    "label": "University of Washington Medicinal Herb Garden",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.6525,
+    "lon": -122.308888888,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49573376"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49573376 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49573382",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49573382",
+    "label": "University of Washington Tennis Courts",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.652777777,
+    "lon": -122.301111111,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49573382"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49573382 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49573384",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49573384",
+    "label": "University of Washington Womens Soccer Field",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.650277777,
+    "lon": -122.3,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49573384"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49573384 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q101097885",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q101097885",
+    "label": "Physics/Astronomy Tower",
+    "classes": [
+     "Q19844914"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.653711028,
+    "lon": -122.311417501,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q101097885"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q101097885 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q102104671",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q102104671",
+    "label": "North Physics Laboratory",
+    "classes": [
+     "Q1814169",
+     "Q19844914"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.66,
+    "lon": -122.3027,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q102104671"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q102104671 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q102124296",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q102124296",
+    "label": "Ocean Teaching Building",
+    "classes": [
+     "Q19844914"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.650113685,
+    "lon": -122.312369301,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q102124296"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q102124296 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q104180602",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q104180602",
+    "label": "Kincaid Hall",
+    "classes": [
+     "Q19844914"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6527,
+    "lon": -122.3106,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q104180602"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q104180602 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q104233407",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q104233407",
+    "label": "Benjamin D. Hall Interdisciplinary Research Building",
+    "classes": [
+     "Q19844914"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.656195595,
+    "lon": -122.3212676,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q104233407"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q104233407 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q104233776",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q104233776",
+    "label": "Henderson Hall",
+    "classes": [
+     "Q19844914"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6554,
+    "lon": -122.3095,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q104233776"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q104233776 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q104733759",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q104733759",
+    "label": "Hans Rosling Center for Population Health",
+    "classes": [
+     "Q19844914"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.65546517,
+    "lon": -122.311868346,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q104733759"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q104733759 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q107339057",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q107339057",
+    "label": "Loew Hall",
+    "classes": [
+     "Q19844914"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6543,
+    "lon": -122.3045,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q107339057"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q107339057 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q120735211",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q120735211",
+    "label": "University of Washington Art Library",
+    "classes": [
+     "Q11396180",
+     "Q1438040",
+     "Q18628369",
+     "Q856234"
+    ],
+    "classifier_labels": [
+     "library",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.658388537,
+    "lon": -122.306334918,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q120735211"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q120735211 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q121087907",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q121087907",
+    "label": "University of Washington Drama Library",
+    "classes": [
+     "Q109328354",
+     "Q11396180",
+     "Q1438040",
+     "Q856234"
+    ],
+    "classifier_labels": [
+     "library",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.659730174,
+    "lon": -122.306610461,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q121087907"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q121087907 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q121087988",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q121087988",
+    "label": "University of Washington Built Environments Library",
+    "classes": [
+     "Q11396180",
+     "Q121087998",
+     "Q121088028",
+     "Q1438040",
+     "Q856234"
+    ],
+    "classifier_labels": [
+     "library",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.655103189,
+    "lon": -122.312667732,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q121087988"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q121087988 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q121306487",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q121306487",
+    "label": "University of Washington Engineering Library",
+    "classes": [
+     "Q11396180",
+     "Q121306495",
+     "Q1438040",
+     "Q856234"
+    ],
+    "classifier_labels": [
+     "library",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.654772317,
+    "lon": -122.304651832,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q121306487"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q121306487 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q121306508",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q121306508",
+    "label": "Engineering Library",
+    "classes": [
+     "Q19844914",
+     "Q856584"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.654772317,
+    "lon": -122.304651832,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q121306508"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q121306508 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q121306720",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q121306720",
+    "label": "University of Washington Health Sciences Library",
+    "classes": [
+     "Q11396180",
+     "Q1438040",
+     "Q6150991",
+     "Q856234"
+    ],
+    "classifier_labels": [
+     "library",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.650582575,
+    "lon": -122.308101532,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q121306720"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q121306720 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q121306777",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q121306777",
+    "label": "University of Washington Mathematics Research Library",
+    "classes": [
+     "Q11396180",
+     "Q121306790",
+     "Q1438040",
+     "Q856234"
+    ],
+    "classifier_labels": [
+     "library",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.657408861,
+    "lon": -122.30421119,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q121306777"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q121306777 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q121306905",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q121306905",
+    "label": "Health Sciences Education Building",
+    "classes": [
+     "Q19844914"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.65196778,
+    "lon": -122.310504217,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q121306905"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q121306905 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43305843",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43305843",
+    "label": "Egyptian Theatre",
+    "classes": [
+     "Q41253",
+     "Q5348452"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6623654,
+    "lon": -122.3132754,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43305843"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43305843 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306500",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306500",
+    "label": "AMC Dine-In Seattle 10",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.661682,
+    "lon": -122.3183386,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306500"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306500 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306614",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306614",
+    "label": "Green Lake Theater",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6804207,
+    "lon": -122.3252185,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306614"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306614 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306617",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306617",
+    "label": "Green Lake Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.680002,
+    "lon": -122.324947,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306617"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306617 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306660",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306660",
+    "label": "McEachern Auditorium",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6449753,
+    "lon": -122.3015262,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306660"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306660 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306803",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306803",
+    "label": "Ye College Playhouse",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6603512,
+    "lon": -122.3131504,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306803"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306803 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  }
+ ]
+}

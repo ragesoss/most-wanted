@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ragesoss/most-wanted/schema/bundle.schema.json",
+  "title": "Want bundle",
+  "description": "One geo-shard of the wants registry: all open wants whose subject falls inside a single geohash cell. Bundles are static JSON served over plain HTTP; clients fetch a broad set of cells covering their region and match locally, so the registry never learns user location.",
+  "type": "object",
+  "required": ["format_version", "geohash", "generated", "wants"],
+  "properties": {
+    "format_version": { "type": "string" },
+    "geohash": {
+      "type": "string",
+      "pattern": "^[0123456789bcdefghjkmnpqrstuvwxyz]+$",
+      "description": "Geohash cell this bundle covers. Precision is registry-wide (see index.json)."
+    },
+    "generated": { "type": "string", "format": "date-time" },
+    "wants": {
+      "type": "array",
+      "items": { "$ref": "want.schema.json" }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+ "format_version": "0.1",
+ "geohash": "c22zx",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q48980555",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q48980555",
+    "label": "Bitter Lake Reservoir Dam",
+    "classes": [
+     "Q12323"
+    ],
+    "classifier_labels": [
+     "dam"
+    ]
+   },
+   "geo": {
+    "lat": 47.729722222,
+    "lon": -122.347777777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q48980555"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q48980555 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q112283746",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q112283746",
+    "label": "Elisabeth C. Miller Botanical Garden",
+    "classes": [
+     "Q167346"
+    ],
+    "classifier_labels": [
+     "garden",
+     "park"
+    ]
+   },
+   "geo": {
+    "lat": 47.738265734,
+    "lon": -122.363036112,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q112283746"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q112283746 wdt:P18 [] }"
+   }
+  }
+ ]
+}

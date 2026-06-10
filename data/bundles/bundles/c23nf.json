@@ -1,0 +1,167 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23nf",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q49479594",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49479594",
+    "label": "Community Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.615555555,
+    "lon": -122.239166666,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49479594"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49479594 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49524481",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49524481",
+    "label": "Medina Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.618888888,
+    "lon": -122.233888888,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49524481"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49524481 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49871789",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49871789",
+    "label": "Calkins Point",
+    "classes": [
+     "Q185113"
+    ],
+    "classifier_labels": [
+     "coastline",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.595277777,
+    "lon": -122.2275,
+    "radius_m": 600
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49871789"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49871789 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49887921",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49887921",
+    "label": "Dabney Point",
+    "classes": [
+     "Q185113"
+    ],
+    "classifier_labels": [
+     "coastline",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.613888888,
+    "lon": -122.235277777,
+    "radius_m": 600
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49887921"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49887921 wdt:P18 [] }"
+   }
+  }
+ ]
+}

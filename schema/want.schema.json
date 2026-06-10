@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ragesoss/most-wanted/schema/want.schema.json",
+  "title": "Want",
+  "description": "A single demand signal: a query for a piece of data (v1: a photo) plus fulfillment instructions. Wants are distributed in geo-sharded bundles (see bundle.schema.json) and matched privately on-device.",
+  "type": "object",
+  "required": ["id", "publisher", "type", "subject", "fulfillment"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable, deterministic identifier. Convention: '<source>/<subject id>', e.g. 'wd-p18/Q1354391'. Re-running the compiler must produce the same id for the same underlying signal, so clients can dedup across bundle refreshes.",
+      "pattern": "^[a-z0-9-]+/[A-Za-z0-9_-]+$"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Who compiled/asserted this want. v1: always a Wikimedia-derived compiler source, trusted implicitly."
+    },
+    "signed_by": {
+      "type": "string",
+      "description": "Placeholder for the v2+ federation trust chain. Absent in v1; clients must treat absence as 'implicitly trusted Wikimedia source'."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["photo"],
+      "description": "Data type requested. v1 is photos only; the enum will grow (audio, etc.)."
+    },
+    "subject": {
+      "type": "object",
+      "required": ["wikidata_qid"],
+      "properties": {
+        "wikidata_qid": { "type": "string", "pattern": "^Q[0-9]+$" },
+        "label": {
+          "type": "string",
+          "description": "Human-readable name shown to the donor at review time."
+        },
+        "classes": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^Q[0-9]+$" },
+          "description": "Wikidata P31 classes of the subject, for client-side filtering/grouping."
+        },
+        "classifier_labels": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Controlled vocabulary for the on-device classifier (semantic-rejection step). Mapped centrally from Wikidata classes by the compiler; clients must not improvise their own mapping."
+        }
+      }
+    },
+    "geo": {
+      "type": "object",
+      "required": ["lat", "lon", "radius_m"],
+      "properties": {
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+        "radius_m": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Spatial-join radius: a photo whose EXIF position falls within radius_m of (lat, lon) is a geo candidate."
+        }
+      }
+    },
+    "time_window": {
+      "type": "object",
+      "description": "Restricts which photo timestamps can fulfill the want. The retrospective secret weapon: e.g. 'before' set to a demolition date asks for photos that can no longer be taken.",
+      "properties": {
+        "before": { "type": "string", "format": "date" },
+        "after": { "type": "string", "format": "date" },
+        "historical": {
+          "type": "boolean",
+          "description": "True when the subject no longer exists but no precise end date is known. Clients should prefer older photos and must not prompt anyone to go photograph the site."
+        }
+      }
+    },
+    "priority": {
+      "type": "object",
+      "description": "Signals for ranking wants when many candidates compete. Higher sitelinks = more wikis waiting on the image.",
+      "properties": {
+        "sitelinks": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "properties": {
+        "license_required": { "type": "string", "description": "SPDX-ish license identifier the donor must agree to, e.g. 'CC-BY-SA-4.0'." },
+        "min_resolution": { "type": "integer", "description": "Minimum pixels on the longest edge." },
+        "no_screenshots": { "type": "boolean" },
+        "sensitivity": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["strip_gps_homes", "flag_faces"] },
+          "description": "Client-side handling flags the reviewer/upload flow must honor."
+        }
+      }
+    },
+    "fulfillment": {
+      "type": "object",
+      "required": ["endpoint"],
+      "properties": {
+        "endpoint": { "type": "string", "enum": ["commons_upload"] },
+        "structured_data": {
+          "type": "object",
+          "properties": {
+            "depicts": { "type": "string", "pattern": "^Q[0-9]+$" }
+          },
+          "description": "Structured data to attach on upload. 'depicts' closes the loop: it lets the compiler auto-expire the want and lets curators dedup submissions."
+        }
+      }
+    },
+    "status_check": {
+      "type": "object",
+      "description": "How a client verifies the want is still open before showing/uploading. v1 semantics: run the ASK query against query.wikidata.org; true means the want is already fulfilled and must be dropped.",
+      "properties": {
+        "sparql_ask": { "type": "string" }
+      }
+    }
+  }
+}

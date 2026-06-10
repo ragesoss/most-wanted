@@ -1,0 +1,1561 @@
+{
+ "rows": [
+  {
+   "item": "Q100701144",
+   "itemLabel": "Epiphany Music Academy",
+   "coord": "Point(-122.285663182 47.618125462)",
+   "sitelinks": "0",
+   "classes": "Q1021290",
+   "classLabels": "music school"
+  },
+  {
+   "item": "Q101097885",
+   "itemLabel": "Physics/Astronomy Tower",
+   "coord": "Point(-122.311417501 47.653711028)",
+   "sitelinks": "0",
+   "classes": "Q19844914",
+   "classLabels": "university building"
+  },
+  {
+   "item": "Q102104671",
+   "itemLabel": "North Physics Laboratory",
+   "coord": "Point(-122.3027 47.66)",
+   "sitelinks": "0",
+   "classes": "Q1814169|Q19844914",
+   "classLabels": "physics laboratory|university building"
+  },
+  {
+   "item": "Q102124296",
+   "itemLabel": "Ocean Teaching Building",
+   "coord": "Point(-122.312369301 47.650113685)",
+   "sitelinks": "0",
+   "classes": "Q19844914",
+   "classLabels": "university building"
+  },
+  {
+   "item": "Q102318397",
+   "itemLabel": "Four Seasons Hotel Seattle",
+   "coord": "Point(-122.33941 47.60763)",
+   "sitelinks": "1",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q104099520",
+   "itemLabel": "University of Washington Center for International Trade in Forest Products",
+   "coord": "Point(-122.3075 47.651909592)",
+   "sitelinks": "0",
+   "classes": "Q7315155|Q28863779",
+   "classLabels": "research center|university research group"
+  },
+  {
+   "item": "Q104180602",
+   "itemLabel": "Kincaid Hall",
+   "coord": "Point(-122.3106 47.6527)",
+   "sitelinks": "0",
+   "classes": "Q19844914",
+   "classLabels": "university building"
+  },
+  {
+   "item": "Q104233407",
+   "itemLabel": "Benjamin D. Hall Interdisciplinary Research Building",
+   "coord": "Point(-122.3212676 47.656195595)",
+   "sitelinks": "0",
+   "classes": "Q19844914",
+   "classLabels": "university building"
+  },
+  {
+   "item": "Q104233776",
+   "itemLabel": "Henderson Hall",
+   "coord": "Point(-122.3095 47.6554)",
+   "sitelinks": "0",
+   "classes": "Q19844914",
+   "classLabels": "university building"
+  },
+  {
+   "item": "Q104479988",
+   "itemLabel": "Bardy Diagnostics (United States)",
+   "coord": "Point(-122.332638 47.599442)",
+   "sitelinks": "0",
+   "classes": "Q4830453",
+   "classLabels": "business"
+  },
+  {
+   "item": "Q104481029",
+   "itemLabel": "Magnolia Medical Technologies (United States)",
+   "coord": "Point(-122.359756 47.624832)",
+   "sitelinks": "0",
+   "classes": "Q4830453",
+   "classLabels": "business"
+  },
+  {
+   "item": "Q104481262",
+   "itemLabel": "Alpine Immune Sciences",
+   "coord": "Point(-122.3285349 47.635092)",
+   "sitelinks": "0",
+   "classes": "Q4830453",
+   "classLabels": "business"
+  },
+  {
+   "item": "Q104531723",
+   "itemLabel": "Barnes & Noble Downtown Seattle",
+   "coord": "Point(-122.334791312 47.612786724)",
+   "sitelinks": "0",
+   "classes": "Q59769581",
+   "classLabels": "general bookstore"
+  },
+  {
+   "item": "Q104732823",
+   "itemLabel": "University of Washington Population Health Initiative",
+   "coord": "Point(-122.311954176 47.655522984)",
+   "sitelinks": "0",
+   "classes": "Q1663557|Q28863779",
+   "classLabels": "initiative|university research group"
+  },
+  {
+   "item": "Q104733759",
+   "itemLabel": "Hans Rosling Center for Population Health",
+   "coord": "Point(-122.311868346 47.65546517)",
+   "sitelinks": "0",
+   "classes": "Q19844914",
+   "classLabels": "university building"
+  },
+  {
+   "item": "Q105036749",
+   "itemLabel": "St. Joseph School",
+   "coord": "Point(-122.308470908 47.625718213)",
+   "sitelinks": "0",
+   "classes": "Q149566|Q9842|Q1138671",
+   "classLabels": "middle school|primary school|Catholic school"
+  },
+  {
+   "item": "Q105089983",
+   "itemLabel": "King County Department of Natural Resources and Parks",
+   "coord": "Point(-122.331357422 47.599303454)",
+   "sitelinks": "0",
+   "classes": "Q327333",
+   "classLabels": "government agency"
+  },
+  {
+   "item": "Q105309935",
+   "itemLabel": "Deep Sea Fishermen's Union of the Pacific",
+   "coord": "Point(-122.3828509 47.665698741)",
+   "sitelinks": "0",
+   "classes": "Q178790",
+   "classLabels": "labor union"
+  },
+  {
+   "item": "Q105329341",
+   "itemLabel": "Seattle Piano Academy",
+   "coord": "Point(-122.302405393 47.676190905)",
+   "sitelinks": "0",
+   "classes": "Q1021290",
+   "classLabels": "music school"
+  },
+  {
+   "item": "Q105820841",
+   "itemLabel": "Stone Avenue Bridge",
+   "coord": "Point(-122.343055555 47.645833333)",
+   "sitelinks": "1",
+   "classes": "Q537127",
+   "classLabels": "road bridge"
+  },
+  {
+   "item": "Q106978476",
+   "itemLabel": "South Seattle College Georgetown Campus",
+   "coord": "Point(-122.325512016 47.542917181)",
+   "sitelinks": "0",
+   "classes": "Q209465|Q1336920",
+   "classLabels": "campus|community college"
+  },
+  {
+   "item": "Q107233435",
+   "itemLabel": "University of Washington Institute for Stem Cell & Regenerative Medicine",
+   "coord": "Point(-122.340368169 47.625031749)",
+   "sitelinks": "0",
+   "classes": "Q31855|Q28863779",
+   "classLabels": "research institute|university research group"
+  },
+  {
+   "item": "Q107318888",
+   "itemLabel": "University of Washington Tech Policy Lab",
+   "coord": "Point(-122.31089 47.66071552)",
+   "sitelinks": "0",
+   "classes": "Q155271|Q28863779",
+   "classLabels": "think tank|university research group"
+  },
+  {
+   "item": "Q107339057",
+   "itemLabel": "Loew Hall",
+   "coord": "Point(-122.3045 47.6543)",
+   "sitelinks": "0",
+   "classes": "Q19844914",
+   "classLabels": "university building"
+  },
+  {
+   "item": "Q107517586",
+   "itemLabel": "Forest Lawn Cemetery",
+   "coord": "Point(-122.3667 47.5422)",
+   "sitelinks": "0",
+   "classes": "Q39614",
+   "classLabels": "cemetery"
+  },
+  {
+   "item": "Q107517747",
+   "itemLabel": "Atossa Therapeutics (United States)",
+   "coord": "Point(-122.33646 47.605438)",
+   "sitelinks": "0",
+   "classes": "Q4830453",
+   "classLabels": "business"
+  },
+  {
+   "item": "Q107517988",
+   "itemLabel": "Aminex Therapeutics (United States)",
+   "coord": "Point(-122.243254112 47.736639204)",
+   "sitelinks": "0",
+   "classes": "Q4830453",
+   "classLabels": "business"
+  },
+  {
+   "item": "Q107518005",
+   "itemLabel": "Cajal Neuroscience (United States)",
+   "coord": "Point(-122.3267572 47.6343604)",
+   "sitelinks": "0",
+   "classes": "Q4830453",
+   "classLabels": "business"
+  },
+  {
+   "item": "Q107518667",
+   "itemLabel": "Seattle Epidemiologic Information and Research Center",
+   "coord": "Point(-122.3079967 47.5629432)",
+   "sitelinks": "0",
+   "classes": "Q327333",
+   "classLabels": "government agency"
+  },
+  {
+   "item": "Q107519677",
+   "itemLabel": "Liver Institute Northwest",
+   "coord": "Point(-122.2947407 47.6618389)",
+   "sitelinks": "0",
+   "classes": "Q4287745",
+   "classLabels": "medical organization"
+  },
+  {
+   "item": "Q107630271",
+   "itemLabel": "Taku",
+   "coord": "Point(-122.323155 47.61419)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q107652612",
+   "itemLabel": "St. Alphonsus Parish",
+   "coord": "Point(-122.375906401 47.671566495)",
+   "sitelinks": "0",
+   "classes": "Q17143723",
+   "classLabels": "Catholic parish"
+  },
+  {
+   "item": "Q108649500",
+   "itemLabel": "Statue of Don James",
+   "coord": "Point(-122.303166666 47.651527777)",
+   "sitelinks": "1",
+   "classes": "Q179700",
+   "classLabels": "statue"
+  },
+  {
+   "item": "Q108737265",
+   "itemLabel": "The Gottman Institute",
+   "coord": "Point(-122.34263 47.61425)",
+   "sitelinks": "0",
+   "classes": "Q43229",
+   "classLabels": "organization"
+  },
+  {
+   "item": "Q108936761",
+   "itemLabel": "assassination of Gene Viernes and Silme Domingo",
+   "coord": "Point(-122.329914474 47.599935537)",
+   "sitelinks": "0",
+   "classes": "Q132821|Q3882219|Q1139665",
+   "classLabels": "murder|assassination|political murder"
+  },
+  {
+   "item": "Q109500881",
+   "itemLabel": "University of Washington EarthLab",
+   "coord": "Point(-122.318910815 47.654160919)",
+   "sitelinks": "0",
+   "classes": "Q483242|Q28863779",
+   "classLabels": "laboratory|university research group"
+  },
+  {
+   "item": "Q109501819",
+   "itemLabel": "Nippon Foundation Ocean Nexus Center",
+   "coord": "Point(-122.318910815 47.654160919)",
+   "sitelinks": "0",
+   "classes": "Q28863779",
+   "classLabels": "university research group"
+  },
+  {
+   "item": "Q110823352",
+   "itemLabel": "SMG Model Management",
+   "coord": "Point(-122.325877 47.632116)",
+   "sitelinks": "0",
+   "classes": "Q35127|Q1144447",
+   "classLabels": "website|modeling agency"
+  },
+  {
+   "item": "Q110995698",
+   "itemLabel": "Angie's Umbrella",
+   "coord": "Point(-122.3452 47.6114)",
+   "sitelinks": "1",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q111119606",
+   "itemLabel": "Green Tortoise Seattle Hostel",
+   "coord": "Point(-122.3395579 47.608866)",
+   "sitelinks": "0",
+   "classes": "Q654772",
+   "classLabels": "hostel"
+  },
+  {
+   "item": "Q111119607",
+   "itemLabel": "HI Seattle at the American Hotel",
+   "coord": "Point(-122.3264945 47.598469)",
+   "sitelinks": "0",
+   "classes": "Q654772",
+   "classLabels": "hostel"
+  },
+  {
+   "item": "Q111119608",
+   "itemLabel": "HotelHotel Hostel",
+   "coord": "Point(-122.3501105 47.6512048)",
+   "sitelinks": "0",
+   "classes": "Q654772",
+   "classLabels": "hostel"
+  },
+  {
+   "item": "Q111165352",
+   "itemLabel": "Madrona Arms",
+   "coord": "Point(-122.289166666 47.612777777)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q111169466",
+   "itemLabel": "Sonic Bloom",
+   "coord": "Point(-122.3503 47.62)",
+   "sitelinks": "1",
+   "classes": "Q4502142",
+   "classLabels": "visual artwork"
+  },
+  {
+   "item": "Q111339847",
+   "itemLabel": "Battery Street Tunnel",
+   "coord": "Point(-122.343608333 47.618919444)",
+   "sitelinks": "0",
+   "classes": "Q44377",
+   "classLabels": "tunnel"
+  },
+  {
+   "item": "Q111393654",
+   "itemLabel": "Embassy Suites by Hilton Seattle Downtown Pioneer Square",
+   "coord": "Point(-122.33104 47.59797)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393655",
+   "itemLabel": "Silver Cloud Hotel - Seattle Stadium",
+   "coord": "Point(-122.33368 47.5927)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393656",
+   "itemLabel": "Renaissance Seattle Hotel",
+   "coord": "Point(-122.33059 47.60682)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393658",
+   "itemLabel": "Kimpton Hotel Vintage Seattle",
+   "coord": "Point(-122.33257 47.60758)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393659",
+   "itemLabel": "W Seattle",
+   "coord": "Point(-122.33379 47.60757)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393861",
+   "itemLabel": "Kimpton Hotel Monaco Seattle",
+   "coord": "Point(-122.33398 47.60703)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393862",
+   "itemLabel": "Sheraton Grand Seattle",
+   "coord": "Point(-122.33385 47.61081)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393864",
+   "itemLabel": "The Paramount Hotel",
+   "coord": "Point(-122.33331 47.61309)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393865",
+   "itemLabel": "Hotel 1000, LXR Hotels & Resorts",
+   "coord": "Point(-122.33631 47.60496)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393866",
+   "itemLabel": "The Alexis Royal Sonesta Hotel Seattle",
+   "coord": "Point(-122.33661 47.60491)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393868",
+   "itemLabel": "Hotel Theodore",
+   "coord": "Point(-122.3343 47.61249)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393869",
+   "itemLabel": "Motif Seattle, a Destination by Hyatt Hotel",
+   "coord": "Point(-122.335338592 47.61002385)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393874",
+   "itemLabel": "The Charter Hotel Seattle, Curio Collection by Hilton",
+   "coord": "Point(-122.33987 47.61085)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393875",
+   "itemLabel": "Pan Pacific Seattle",
+   "coord": "Point(-122.33801 47.61785)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393880",
+   "itemLabel": "Hotel Ändra",
+   "coord": "Point(-122.34019 47.61331)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393881",
+   "itemLabel": "Thompson Seattle",
+   "coord": "Point(-122.341388888 47.610555555)",
+   "sitelinks": "2",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111393882",
+   "itemLabel": "Seattle Marriott Waterfront",
+   "coord": "Point(-122.34729 47.61084)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111395314",
+   "itemLabel": "Kimpton Palladian Hotel",
+   "coord": "Point(-122.34173 47.61198)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111887790",
+   "itemLabel": "The State Hotel",
+   "coord": "Point(-122.33913 47.60947)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111887792",
+   "itemLabel": "The Sound Hotel Seattle Belltown, Tapestry Collection by Hilton",
+   "coord": "Point(-122.3421 47.61421)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q111888879",
+   "itemLabel": "Hotel Ballard",
+   "coord": "Point(-122.3832 47.66656)",
+   "sitelinks": "0",
+   "classes": "Q27686",
+   "classLabels": "hotel"
+  },
+  {
+   "item": "Q112283746",
+   "itemLabel": "Elisabeth C. Miller Botanical Garden",
+   "coord": "Point(-122.363036112 47.738265734)",
+   "sitelinks": "0",
+   "classes": "Q167346",
+   "classLabels": "botanical garden"
+  },
+  {
+   "item": "Q113097937",
+   "itemLabel": "Goldfinch Tavern",
+   "coord": "Point(-122.339444444 47.6075)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q113212460",
+   "itemLabel": "The Walrus and the Carpenter",
+   "coord": "Point(-122.380083333 47.663555555)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q113212558",
+   "itemLabel": "Lockspot Cafe",
+   "coord": "Point(-122.395833333 47.667777777)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q113229944",
+   "itemLabel": "Seattle Center Totem",
+   "coord": "Point(-122.351388888 47.620833333)",
+   "sitelinks": "2",
+   "classes": "Q83809",
+   "classLabels": "totem pole"
+  },
+  {
+   "item": "Q113245056",
+   "itemLabel": "Centennial Park",
+   "coord": "Point(-122.366388888 47.6225)",
+   "sitelinks": "2",
+   "classes": "Q22746",
+   "classLabels": "urban park"
+  },
+  {
+   "item": "Q113245084",
+   "itemLabel": "The Beach at Expedia Group",
+   "coord": "Point(-122.377777777 47.626944444)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q113245123",
+   "itemLabel": "Nordstrom Downtown Seattle",
+   "coord": "Point(-122.336290431 47.612386603)",
+   "sitelinks": "1",
+   "classes": "Q41176",
+   "classLabels": "building"
+  },
+  {
+   "item": "Q113245162",
+   "itemLabel": "Echo",
+   "coord": "Point(-122.355638888 47.61525)",
+   "sitelinks": "1",
+   "classes": "Q4502142",
+   "classLabels": "visual artwork"
+  },
+  {
+   "item": "Q113245177",
+   "itemLabel": "Amgen Helix Pedestrian Bridge",
+   "coord": "Point(-122.372222222 47.628055555)",
+   "sitelinks": "1",
+   "classes": "Q12280",
+   "classLabels": "bridge"
+  },
+  {
+   "item": "Q113245215",
+   "itemLabel": "Renaissance Seattle Hotel",
+   "coord": "Point(-122.330833333 47.606666666)",
+   "sitelinks": "1",
+   "classes": "Q41176",
+   "classLabels": "building"
+  },
+  {
+   "item": "Q113245251",
+   "itemLabel": "Hilton Seattle",
+   "coord": "Point(-122.333055555 47.609166666)",
+   "sitelinks": "2",
+   "classes": "Q41176",
+   "classLabels": "building"
+  },
+  {
+   "item": "Q113265218",
+   "itemLabel": "West Seattle Ferry Terminal",
+   "coord": "Point(-122.37974 47.58952)",
+   "sitelinks": "0",
+   "classes": "Q1478783",
+   "classLabels": "ferry port"
+  },
+  {
+   "item": "Q113372044",
+   "itemLabel": "Athenian Seafood Restaurant and Bar",
+   "coord": "Point(-122.341166666 47.608833333)",
+   "sitelinks": "2",
+   "classes": "Q17102985",
+   "classLabels": "seafood restaurant"
+  },
+  {
+   "item": "Q113372049",
+   "itemLabel": "Oriental Mart",
+   "coord": "Point(-122.340694444 47.608944444)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q113372074",
+   "itemLabel": "Matt's in the Market",
+   "coord": "Point(-122.340555555 47.608916666)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q113372092",
+   "itemLabel": "White Swan Public House",
+   "coord": "Point(-122.331805555 47.629111111)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q113372125",
+   "itemLabel": "Mee Sum Pastry",
+   "coord": "Point(-122.3414 47.6093)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q113372149",
+   "itemLabel": "Mecca Cafe",
+   "coord": "Point(-122.356555555 47.624083333)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q113395954",
+   "itemLabel": "Ristorante Machiavelli",
+   "coord": "Point(-122.328055555 47.615)",
+   "sitelinks": "2",
+   "classes": "Q53847673",
+   "classLabels": "Italian restaurant"
+  },
+  {
+   "item": "Q113427904",
+   "itemLabel": "Adjacent, Against, Upon",
+   "coord": "Point(-122.361666666 47.619444444)",
+   "sitelinks": "1",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q113641974",
+   "itemLabel": "Crystal Pool",
+   "coord": "Point(-122.343055555 47.612222222)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q114434625",
+   "itemLabel": "The Langham, Seattle",
+   "coord": "Point(-122.341666666 47.611388888)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q114495278",
+   "itemLabel": "Fisherman's Restaurant and Bar",
+   "coord": "Point(-122.341111111 47.606111111)",
+   "sitelinks": "2",
+   "classes": "Q17102985",
+   "classLabels": "seafood restaurant"
+  },
+  {
+   "item": "Q114695565",
+   "itemLabel": "Katsu Burger",
+   "coord": "Point(-122.3291 47.544)",
+   "sitelinks": "2",
+   "classes": "Q18534542",
+   "classLabels": "restaurant chain"
+  },
+  {
+   "item": "Q114737421",
+   "itemLabel": "Rancho Bravo Tacos",
+   "coord": "Point(-122.32643 47.6612)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q114771151",
+   "itemLabel": "Rione XIII",
+   "coord": "Point(-122.312861111 47.622083333)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q114772291",
+   "itemLabel": "The Crumpet Shop",
+   "coord": "Point(-122.3405 47.609)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q114779916",
+   "itemLabel": "Le Panier",
+   "coord": "Point(-122.3422 47.6098)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q114783283",
+   "itemLabel": "Tenzing Momo",
+   "coord": "Point(-122.3401 47.6086)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q114797694",
+   "itemLabel": "DeLaurenti Food & Wine",
+   "coord": "Point(-122.3401 47.6086)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q114797778",
+   "itemLabel": "Giant Shoe Museum",
+   "coord": "Point(-122.3407 47.6086)",
+   "sitelinks": "2",
+   "classes": "Q33506",
+   "classLabels": "museum"
+  },
+  {
+   "item": "Q114810701",
+   "itemLabel": "Daily Dozen Doughnut Company",
+   "coord": "Point(-122.3403 47.6087)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q114815840",
+   "itemLabel": "Ghost Alley Espresso",
+   "coord": "Point(-122.3406 47.6086)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q114835132",
+   "itemLabel": "Three Girls Bakery",
+   "coord": "Point(-122.3409 47.609)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q114841584",
+   "itemLabel": "Market Magic Shop",
+   "coord": "Point(-122.3409 47.6084)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q114859624",
+   "itemLabel": "Pike Place Chowder",
+   "coord": "Point(-122.3412 47.6094)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q114865791",
+   "itemLabel": "Shug's Soda Fountain and Ice Cream",
+   "coord": "Point(-122.3409 47.6095)",
+   "sitelinks": "2",
+   "classes": "Q1311064",
+   "classLabels": "ice cream parlor"
+  },
+  {
+   "item": "Q114880131",
+   "itemLabel": "Golden Age Collectables",
+   "coord": "Point(-122.340928 47.608593)",
+   "sitelinks": "2",
+   "classes": "Q16590780",
+   "classLabels": "comics shop"
+  },
+  {
+   "item": "Q114996802",
+   "itemLabel": "Old Seattle Paperworks",
+   "coord": "Point(-122.34111 47.60882)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q115028453",
+   "itemLabel": "World Spice Merchants",
+   "coord": "Point(-122.341583333 47.608638888)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q115109513",
+   "itemLabel": "Sheraton Grand Seattle",
+   "coord": "Point(-122.333888888 47.611111111)",
+   "sitelinks": "2",
+   "classes": "Q41176",
+   "classLabels": "building"
+  },
+  {
+   "item": "Q115112016",
+   "itemLabel": "Michou Deli",
+   "coord": "Point(-122.3423 47.6099)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115122417",
+   "itemLabel": "The Confectional",
+   "coord": "Point(-122.3414 47.6093)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115183539",
+   "itemLabel": "Pike Place Bakery",
+   "coord": "Point(-122.3409 47.6087)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q115188822",
+   "itemLabel": "Joe's Bar and Grill",
+   "coord": "Point(-122.3275 47.5985)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115195990",
+   "itemLabel": "Bavarian Meats",
+   "coord": "Point(-122.3428 47.6102)",
+   "sitelinks": "2",
+   "classes": "Q783794",
+   "classLabels": "company"
+  },
+  {
+   "item": "Q115203047",
+   "itemLabel": "Market Grill",
+   "coord": "Point(-122.341 47.6088)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115227135",
+   "itemLabel": "Turkish Delight",
+   "coord": "Point(-122.3431 47.6104)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115259031",
+   "itemLabel": "Askatu Bakery",
+   "coord": "Point(-122.3433 47.6147)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115518551",
+   "itemLabel": "Taurus Ox",
+   "coord": "Point(-122.3076 47.6271)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115519272",
+   "itemLabel": "Dacha Diner",
+   "coord": "Point(-122.3266 47.6176)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115546879",
+   "itemLabel": "Rubinstein Bagels",
+   "coord": "Point(-122.3402 47.6151)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115559034",
+   "itemLabel": "Frank's Quality Produce",
+   "coord": "Point(-122.3407 47.6089)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q115609939",
+   "itemLabel": "ʔálʔal Café",
+   "coord": "Point(-122.3314 47.6013)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115649686",
+   "itemLabel": "Terra Plata",
+   "coord": "Point(-122.328055555 47.614444444)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115649689",
+   "itemLabel": "The Carlile Room",
+   "coord": "Point(-122.332444444 47.613527777)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115673686",
+   "itemLabel": "Lumber Yard Bar",
+   "coord": "Point(-122.354861111 47.516527777)",
+   "sitelinks": "2",
+   "classes": "Q17350442",
+   "classLabels": "venue"
+  },
+  {
+   "item": "Q115683035",
+   "itemLabel": "College Street Park",
+   "coord": "Point(-122.294714378 47.582723024)",
+   "sitelinks": "0",
+   "classes": "Q22746",
+   "classLabels": "urban park"
+  },
+  {
+   "item": "Q115780307",
+   "itemLabel": "The Red Popsicle",
+   "coord": "Point(-122.342666666 47.614416666)",
+   "sitelinks": "1",
+   "classes": "Q9325291",
+   "classLabels": "outdoor sculpture"
+  },
+  {
+   "item": "Q115802015",
+   "itemLabel": "Supernova",
+   "coord": "Point(-122.333611111 47.574444444)",
+   "sitelinks": "1",
+   "classes": "Q622425",
+   "classLabels": "nightclub"
+  },
+  {
+   "item": "Q115803777",
+   "itemLabel": "Kamonegi",
+   "coord": "Point(-122.344361111 47.654083333)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115804437",
+   "itemLabel": "Joule",
+   "coord": "Point(-122.342361111 47.649722222)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115804438",
+   "itemLabel": "Musang",
+   "coord": "Point(-122.312861111 47.580333333)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115804749",
+   "itemLabel": "Overlook Walk",
+   "coord": "Point(-122.342777777 47.608611111)",
+   "sitelinks": "2",
+   "classes": "Q1068842",
+   "classLabels": "footbridge"
+  },
+  {
+   "item": "Q115805058",
+   "itemLabel": "Bar del Corso",
+   "coord": "Point(-122.309583333 47.575416666)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115805566",
+   "itemLabel": "Le Pichet",
+   "coord": "Point(-122.3426 47.6108)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115805688",
+   "itemLabel": "Meesha",
+   "coord": "Point(-122.3565 47.652527777)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115809872",
+   "itemLabel": "Phởcific Standard Time",
+   "coord": "Point(-122.337361111 47.614861111)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115813757",
+   "itemLabel": "Zylberschtein's",
+   "coord": "Point(-122.31225 47.71556)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q115813835",
+   "itemLabel": "A+ Hong Kong Kitchen",
+   "coord": "Point(-122.3265 47.5985)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115814310",
+   "itemLabel": "Monsoon",
+   "coord": "Point(-122.307638888 47.624861111)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q115814621",
+   "itemLabel": "Communion Restaurant and Bar",
+   "coord": "Point(-122.3016 47.6131)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115814692",
+   "itemLabel": "La Parisienne French Bakery",
+   "coord": "Point(-122.3466 47.6167)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q115815499",
+   "itemLabel": "Beast and Cleaver",
+   "coord": "Point(-122.387083333 47.686944444)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q115815878",
+   "itemLabel": "Zeitgeist Coffee",
+   "coord": "Point(-122.33185 47.5991)",
+   "sitelinks": "2",
+   "classes": "Q4236467",
+   "classLabels": "coffeehouse"
+  },
+  {
+   "item": "Q115816687",
+   "itemLabel": "Country Dough",
+   "coord": "Point(-122.342444444 47.610222222)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115817739",
+   "itemLabel": "Gracia",
+   "coord": "Point(-122.3838 47.6666)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q115966985",
+   "itemLabel": "Coastal Kitchen",
+   "coord": "Point(-122.313 47.6228)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q116175358",
+   "itemLabel": "Amazon Headquarters Complex",
+   "coord": "Point(-122.339444 47.615556)",
+   "sitelinks": "2",
+   "classes": "Q1497364",
+   "classLabels": "building complex"
+  },
+  {
+   "item": "Q116188993",
+   "itemLabel": "Hello Robin",
+   "coord": "Point(-122.3071 47.6239)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q116431210",
+   "itemLabel": "Rob Roy",
+   "coord": "Point(-122.346611111 47.614805555)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q116685908",
+   "itemLabel": "Seattle Coffee Works",
+   "coord": "Point(-122.3406 47.6101)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q116714545",
+   "itemLabel": "University of Washington Power Plant",
+   "coord": "Point(-122.3036 47.6539)",
+   "sitelinks": "0",
+   "classes": "Q261604|Q18206833",
+   "classLabels": "oil-fired power station|engine power plant"
+  },
+  {
+   "item": "Q116736240",
+   "itemLabel": "Archipelago",
+   "coord": "Point(-122.27825 47.551694444)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q116763913",
+   "itemLabel": "Copine",
+   "coord": "Point(-122.387361111 47.675694444)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q116769384",
+   "itemLabel": "The Original Philly's",
+   "coord": "Point(-122.297 47.5763)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q116788540",
+   "itemLabel": "Martin Luther King Jr. Civil Rights Memorial Park",
+   "coord": "Point(-122.298 47.583)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q117446823",
+   "itemLabel": "Pacific Lutheran Cemetery",
+   "coord": "Point(-122.33604 47.71205)",
+   "sitelinks": "0",
+   "classes": "Q39614",
+   "classLabels": "cemetery"
+  },
+  {
+   "item": "Q117549324",
+   "itemLabel": "Crown Hill Cemetery",
+   "coord": "Point(-122.3686 47.6936)",
+   "sitelinks": "0",
+   "classes": "Q39614",
+   "classLabels": "cemetery"
+  },
+  {
+   "item": "Q117692744",
+   "itemLabel": "New Bikur Cholim Cemetery",
+   "coord": "Point(-122.34027 47.71288)",
+   "sitelinks": "0",
+   "classes": "Q39614",
+   "classLabels": "cemetery"
+  },
+  {
+   "item": "Q117806074",
+   "itemLabel": "Palace Kitchen",
+   "coord": "Point(-122.34 47.6146)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q11809802",
+   "itemLabel": "St. Margaret of Scotland Catholic Church in Seattle",
+   "coord": "Point(-122.375 47.6486)",
+   "sitelinks": "1",
+   "classes": "Q102496",
+   "classLabels": "parish"
+  },
+  {
+   "item": "Q118135978",
+   "itemLabel": "cloud haiku",
+   "coord": "Point(-122.3376 47.615067)",
+   "sitelinks": "0",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q118136891",
+   "itemLabel": "Sequence/Consequence",
+   "coord": "Point(-122.33729 47.61298)",
+   "sitelinks": "0",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q118136913",
+   "itemLabel": "Escape Destinations",
+   "coord": "Point(-122.33788 47.61676)",
+   "sitelinks": "0",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q118136978",
+   "itemLabel": "Transforest",
+   "coord": "Point(-122.332855 47.618607)",
+   "sitelinks": "0",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q118187020",
+   "itemLabel": "Neototems",
+   "coord": "Point(-122.353 47.6223)",
+   "sitelinks": "0",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q118206488",
+   "itemLabel": "Spirit of Washington",
+   "coord": "Point(-122.287 47.56)",
+   "sitelinks": "0",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q118206663",
+   "itemLabel": "Cloud Stones",
+   "coord": "Point(-122.336 47.7056)",
+   "sitelinks": "0",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q118280929",
+   "itemLabel": "Hattie's Hat",
+   "coord": "Point(-122.383194444 47.666111111)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q118347254",
+   "itemLabel": "Raised Doughnuts",
+   "coord": "Point(-122.3017 47.6128)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q118451826",
+   "itemLabel": "Pride Place",
+   "coord": "Point(-122.321012 47.614704)",
+   "sitelinks": "3",
+   "classes": "Q41176",
+   "classLabels": "building"
+  },
+  {
+   "item": "Q118538982",
+   "itemLabel": "Seattle Yacht Club",
+   "coord": "Point(-122.3086 47.6453)",
+   "sitelinks": "2",
+   "classes": "Q1855011",
+   "classLabels": "yacht club"
+  },
+  {
+   "item": "Q118538982",
+   "itemLabel": "Seattle Yacht Club",
+   "coord": "Point(-122.308427538 47.645986903)",
+   "sitelinks": "2",
+   "classes": "Q1855011",
+   "classLabels": "yacht club"
+  },
+  {
+   "item": "Q118898176",
+   "itemLabel": "Bergen Place",
+   "coord": "Point(-122.384 47.668)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q118905981",
+   "itemLabel": "The Comeback Seattle",
+   "coord": "Point(-122.334 47.5845)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q118948248",
+   "itemLabel": "The Mitt",
+   "coord": "Point(-122.333833333 47.592222222)",
+   "sitelinks": "1",
+   "classes": "Q860861",
+   "classLabels": "sculpture"
+  },
+  {
+   "item": "Q119131367",
+   "itemLabel": "Spice Waala",
+   "coord": "Point(-122.3125 47.6217)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q119359397",
+   "itemLabel": "March for Our Lives Seattle",
+   "coord": "Point(-122.319 47.617)",
+   "sitelinks": "2",
+   "classLabels": ""
+  },
+  {
+   "item": "Q119840600",
+   "itemLabel": "Dahlia Lounge",
+   "coord": "Point(-122.340277777 47.613055555)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q120142518",
+   "itemLabel": "Rupee Bar",
+   "coord": "Point(-122.387777777 47.674861111)",
+   "sitelinks": "2",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q120289099",
+   "itemLabel": "JuneBaby",
+   "coord": "Point(-122.304083333 47.675916666)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q120290013",
+   "itemLabel": "Impatient Optimist",
+   "coord": "Point(-122.345833333 47.623333333)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q120355618",
+   "itemLabel": "Wild Ginger",
+   "coord": "Point(-122.3375 47.6088)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q120355678",
+   "itemLabel": "Loulay",
+   "coord": "Point(-122.333472222 47.610416666)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q120355694",
+   "itemLabel": "Poppy",
+   "coord": "Point(-122.320694444 47.625)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q120398653",
+   "itemLabel": "Sitka and Spruce",
+   "coord": "Point(-122.328333333 47.614722222)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q120399232",
+   "itemLabel": "The Whale Wins",
+   "coord": "Point(-122.342361111 47.649583333)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q120434992",
+   "itemLabel": "Miller's Guild",
+   "coord": "Point(-122.336666666 47.614166666)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q120488014",
+   "itemLabel": "Marjorie",
+   "coord": "Point(-122.3019 47.6122)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q120679352",
+   "itemLabel": "Salare",
+   "coord": "Point(-122.301194444 47.675888888)",
+   "sitelinks": "1",
+   "classes": "Q11707",
+   "classLabels": "restaurant"
+  },
+  {
+   "item": "Q120735211",
+   "itemLabel": "University of Washington Art Library",
+   "coord": "Point(-122.306334918 47.658388537)",
+   "sitelinks": "0",
+   "classes": "Q11396180|Q18628369|Q1438040|Q856234",
+   "classLabels": "library branch|art library|research library|academic library"
+  },
+  {
+   "item": "Q121047310",
+   "itemLabel": "Paju",
+   "coord": "Point(-122.356111111 47.624388888)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q121047361",
+   "itemLabel": "Off Alley",
+   "coord": "Point(-122.285138888 47.557638888)",
+   "sitelinks": "1",
+   "classLabels": ""
+  },
+  {
+   "item": "Q121087907",
+   "itemLabel": "University of Washington Drama Library",
+   "coord": "Point(-122.306610461 47.659730174)",
+   "sitelinks": "0",
+   "classes": "Q11396180|Q109328354|Q1438040|Q856234",
+   "classLabels": "library branch|theater library|research library|academic library"
+  },
+  {
+   "item": "Q121087988",
+   "itemLabel": "University of Washington Built Environments Library",
+   "coord": "Point(-122.312667732 47.655103189)",
+   "sitelinks": "0",
+   "classes": "Q11396180|Q121087998|Q121088028|Q1438040|Q856234",
+   "classLabels": "library branch|architectural library|urban planning library|research library|academic library"
+  },
+  {
+   "item": "Q121306487",
+   "itemLabel": "University of Washington Engineering Library",
+   "coord": "Point(-122.304651832 47.654772317)",
+   "sitelinks": "0",
+   "classes": "Q11396180|Q121306495|Q1438040|Q856234",
+   "classLabels": "library branch|engineering library|research library|academic library"
+  },
+  {
+   "item": "Q121306508",
+   "itemLabel": "Engineering Library",
+   "coord": "Point(-122.304651832 47.654772317)",
+   "sitelinks": "0",
+   "classes": "Q19844914|Q856584",
+   "classLabels": "university building|library building"
+  },
+  {
+   "item": "Q121306720",
+   "itemLabel": "University of Washington Health Sciences Library",
+   "coord": "Point(-122.308101532 47.650582575)",
+   "sitelinks": "0",
+   "classes": "Q11396180|Q6150991|Q1438040|Q856234",
+   "classLabels": "library branch|medical library|research library|academic library"
+  },
+  {
+   "item": "Q121306777",
+   "itemLabel": "University of Washington Mathematics Research Library",
+   "coord": "Point(-122.30421119 47.657408861)",
+   "sitelinks": "0",
+   "classes": "Q11396180|Q121306790|Q1438040|Q856234",
+   "classLabels": "library branch|mathematics library|research library|academic library"
+  },
+  {
+   "item": "Q121306905",
+   "itemLabel": "Health Sciences Education Building",
+   "coord": "Point(-122.310504217 47.65196778)",
+   "sitelinks": "0",
+   "classes": "Q19844914",
+   "classLabels": "university building"
+  },
+  {
+   "item": "Q121597658",
+   "itemLabel": "Q121597658",
+   "coord": "Point(-122.353 47.6278)",
+   "sitelinks": "0",
+   "classes": "Q1307276",
+   "classLabels": "single-family detached home"
+  }
+ ]
+}

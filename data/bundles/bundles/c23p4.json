@@ -1,0 +1,127 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23p4",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q49375620",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49375620",
+    "label": "Cozy Cove",
+    "classes": [
+     "Q39594"
+    ],
+    "classifier_labels": [
+     "water",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.646388888,
+    "lon": -122.224444444,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49375620"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49375620 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49377145",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49377145",
+    "label": "Fairweather Bay",
+    "classes": [
+     "Q39594"
+    ],
+    "classifier_labels": [
+     "water",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.643333333,
+    "lon": -122.235277777,
+    "radius_m": 800
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49377145"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49377145 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49488159",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49488159",
+    "label": "Fairweather Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.6375,
+    "lon": -122.236111111,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49488159"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49488159 wdt:P18 [] }"
+   }
+  }
+ ]
+}

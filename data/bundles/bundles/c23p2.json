@@ -1,0 +1,288 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23p2",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q48988070",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q48988070",
+    "label": "Green Lake Reservoir Dam",
+    "classes": [
+     "Q12323"
+    ],
+    "classifier_labels": [
+     "dam"
+    ]
+   },
+   "geo": {
+    "lat": 47.681388888,
+    "lon": -122.314444444,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q48988070"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q48988070 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q48993194",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q48993194",
+    "label": "Maple Leaf Reservoir Dam",
+    "classes": [
+     "Q12323"
+    ],
+    "classifier_labels": [
+     "dam"
+    ]
+   },
+   "geo": {
+    "lat": 47.689722222,
+    "lon": -122.316111111,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q48993194"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q48993194 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49492295",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49492295",
+    "label": "Froula Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.680833333,
+    "lon": -122.313333333,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49492295"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49492295 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q117446823",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q117446823",
+    "label": "Pacific Lutheran Cemetery",
+    "classes": [
+     "Q39614"
+    ],
+    "classifier_labels": [
+     "cemetery"
+    ]
+   },
+   "geo": {
+    "lat": 47.71205,
+    "lon": -122.33604,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q117446823"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q117446823 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q117692744",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q117692744",
+    "label": "New Bikur Cholim Cemetery",
+    "classes": [
+     "Q39614"
+    ],
+    "classifier_labels": [
+     "cemetery"
+    ]
+   },
+   "geo": {
+    "lat": 47.71288,
+    "lon": -122.34027,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q117692744"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q117692744 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q118206663",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q118206663",
+    "label": "Cloud Stones",
+    "classes": [
+     "Q860861"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.7056,
+    "lon": -122.336,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q118206663"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q118206663 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306686",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306686",
+    "label": "Northgate Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.7070578,
+    "lon": -122.3235542,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306686"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306686 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,617 @@
+{
+ "format_version": "0.1",
+ "geohash": "c22zp",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q113212460",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113212460",
+    "label": "The Walrus and the Carpenter",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.663555555,
+    "lon": -122.380083333,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113212460"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113212460 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115803777",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115803777",
+    "label": "Kamonegi",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.654083333,
+    "lon": -122.344361111,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115803777"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115803777 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115805688",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115805688",
+    "label": "Meesha",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.652527777,
+    "lon": -122.3565,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115805688"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115805688 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q115817739",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115817739",
+    "label": "Gracia",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6666,
+    "lon": -122.3838,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115817739"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115817739 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q116763913",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q116763913",
+    "label": "Copine",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.675694444,
+    "lon": -122.387361111,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q116763913"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q116763913 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49473935",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49473935",
+    "label": "Bayview Playground",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.643611111,
+    "lon": -122.386666666,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49473935"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49473935 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49493835",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49493835",
+    "label": "Gilman Playground",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.666944444,
+    "lon": -122.369444444,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49493835"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49493835 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49553136",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49553136",
+    "label": "Rogers Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.645,
+    "lon": -122.359166666,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49553136"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49553136 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49556453",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49556453",
+    "label": "Salmon Bay Park",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.679444444,
+    "lon": -122.381666666,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49556453"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49556453 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111888879",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111888879",
+    "label": "Hotel Ballard",
+    "classes": [
+     "Q27686"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.66656,
+    "lon": -122.3832,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111888879"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111888879 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306517",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306517",
+    "label": "Ballard Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6686859,
+    "lon": -122.3847497,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306517"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306517 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306520",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306520",
+    "label": "Bay Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.668943,
+    "lon": -122.384104,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306520"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306520 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306595",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306595",
+    "label": "Empress Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6686745,
+    "lon": -122.381691,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306595"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306595 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  },
+  {
+   "id": "wd-p18/Q43306603",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306603",
+    "label": "Fremont Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.650349,
+    "lon": -122.3488275,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306603"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306603 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306690",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306690",
+    "label": "Olympic Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.676213,
+    "lon": -122.363838,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306690"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306690 wdt:P18 [] }"
+   }
+  }
+ ]
+}

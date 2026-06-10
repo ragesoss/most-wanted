@@ -1,0 +1,204 @@
+{
+ "format_version": "0.1",
+ "geohash": "c22yr",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q115673686",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115673686",
+    "label": "Lumber Yard Bar",
+    "classes": [
+     "Q17350442"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.516527777,
+    "lon": -122.354861111,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115673686"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115673686 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q48999944",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q48999944",
+    "label": "Southwest Myrtle Street Reservoir Dam",
+    "classes": [
+     "Q12323"
+    ],
+    "classifier_labels": [
+     "dam"
+    ]
+   },
+   "geo": {
+    "lat": 47.539722222,
+    "lon": -122.377777777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q48999944"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q48999944 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49551701",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49551701",
+    "label": "Riverview Playfield",
+    "classes": [
+     "Q22698"
+    ],
+    "classifier_labels": [
+     "park",
+     "green space"
+    ]
+   },
+   "geo": {
+    "lat": 47.538611111,
+    "lon": -122.348333333,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49551701"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49551701 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q107517586",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q107517586",
+    "label": "Forest Lawn Cemetery",
+    "classes": [
+     "Q39614"
+    ],
+    "classifier_labels": [
+     "cemetery"
+    ]
+   },
+   "geo": {
+    "lat": 47.5422,
+    "lon": -122.3667,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q107517586"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q107517586 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43307085",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43307085",
+    "label": "White Center Theatre",
+    "classes": [
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.5173753,
+    "lon": -122.3553497,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43307085"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43307085 wdt:P18 [] }"
+   }
+  }
+ ]
+}

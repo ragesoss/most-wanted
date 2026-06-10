@@ -1,0 +1,132 @@
+{
+ "format_version": "0.1",
+ "geohash": "c23nc",
+ "generated": "2026-06-10T18:45:23+00:00",
+ "wants": [
+  {
+   "id": "wd-p18/Q111165352",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111165352",
+    "label": "Madrona Arms",
+    "classes": [
+     "Q11707"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.612777777,
+    "lon": -122.289166666,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111165352"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111165352 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q4972260",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q4972260",
+    "label": "Broadmoor Golf Club",
+    "classes": [
+     "Q2022036",
+     "Q811430"
+    ],
+    "classifier_labels": [
+     "structure"
+    ]
+   },
+   "geo": {
+    "lat": 47.6314,
+    "lon": -122.295,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q4972260"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q4972260 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q43306655",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q43306655",
+    "label": "Madrona Theatre",
+    "classes": [
+     "Q19860854",
+     "Q41253"
+    ],
+    "classifier_labels": [
+     "movie theater",
+     "storefront",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.607976,
+    "lon": -122.2952684,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q43306655"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q43306655 wdt:P18 [] }"
+   },
+   "time_window": {
+    "historical": true
+   }
+  }
+ ]
+}
