@@ -10,7 +10,33 @@ Wikimedia demand signals (Wikidata items missing an image, etc.) into a
 standard "want" format, distributed as dumb, static, geo-sharded JSON
 bundles. The mobile app is one client of that registry.
 
-## Status: step 1 (compiler spike) — done
+## Status
+
+- **Step 1 (compiler spike): done** — see below.
+- **Step 2 (matcher prototype): logic built and tested synthetically;
+  the real falsification test (precision on a real camera roll) is still
+  pending.** `matcher/match_photos.py` reads EXIF (GPS, capture time,
+  compass heading) from a folder of JPEGs, spatial-joins against the
+  bundles, and tiers candidates per the plan (`auto_suggest` /
+  `worth_a_look` / `long_shot`). The semantic-rejection step is a stub
+  awaiting an embedding model. Since no real photo library was available,
+  `matcher/make_test_library.py` fabricates one — tiny JPEGs whose EXIF is
+  planted relative to actual Seattle wants (isolated hits, dense-cluster
+  hits, reversed headings, far decoys, GPS-less photos) — and
+  `matcher/evaluate.py` scores the matcher against that ground truth:
+  17/17 scenarios pass across 10 random seeds.
+
+  ```sh
+  pip install Pillow piexif   # piexif alone suffices for match_photos.py
+  python3 matcher/make_test_library.py                 # writes data/test-library/
+  python3 matcher/match_photos.py --photos data/test-library --out report.json
+  python3 matcher/evaluate.py --report report.json --manifest data/test-library/manifest.json
+  ```
+
+  To run against a real library: point `--photos` at any folder of JPEGs
+  (HEIC must be converted first).
+
+## Step 1 (compiler spike) — done
 
 The spike from PLAN.md's build sequence: SPARQL query for geocoded
 P18-missing items in one test region (Seattle), normalized to the wants
@@ -98,12 +124,22 @@ No dependencies beyond Python 3 stdlib.
    Institute (20 sitelinks) vs. a long tail of 0-sitelink nonprofits;
    wants within a bundle are sorted by it.
 
+7. **(From the matcher work) Most urban wants are not isolated.** Only
+   79 of the 264 Seattle wants have no other want's match circle within
+   plant distance — downtown storefront rows and nested park/dam circles
+   overlap heavily. So in cities, the dominant matcher mode is "rank a
+   handful of candidates and let the human pick," exactly as the plan
+   assumed; strict auto-suggest is reserved for heading agreement or
+   unambiguous near-field (<30 m) positions, and a heading that points
+   *away* blocks auto-suggest even at near-field (precision over recall).
+
 ## Next (per PLAN.md build sequence)
 
-2. **Matcher prototype (desktop):** CLI that takes a photo folder, reads
-   EXIF, spatial-joins against these bundles, runs an embedding model for
-   category rejection. This is the cheapest falsification test of the
-   whole concept.
+2. **Finish the matcher falsification test:** run `match_photos.py` on a
+   real camera roll (export from Photos/Takeout, convert HEIC → JPEG) and
+   measure precision; wire a MobileCLIP-class embedding model into the
+   `semantic_check` stub for category rejection; build the no-GPS
+   clustering fallback.
 3. **Schema hardening:** grow `class_map.json` (49 unmapped classes are
    already queued in `data/bundles/report.json`), tiering thresholds,
    `status_check` semantics.
