@@ -10,7 +10,10 @@ Wikimedia demand signals (Wikidata items missing an image, etc.) into a
 standard "want" format, distributed as dumb, static, geo-sharded JSON
 bundles. The mobile app is one client of that registry. A survey of
 candidate demand sources — Wikimedia and beyond — lives in
-[docs/demand-signals.md](docs/demand-signals.md).
+[docs/demand-signals.md](docs/demand-signals.md); a parallel survey of
+health-data demand (Open Humans and the wider data-donation field, for
+the deferred v2 expansion) is in
+[docs/health-data-demand.md](docs/health-data-demand.md).
 
 ## Status
 

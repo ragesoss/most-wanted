@@ -121,7 +121,7 @@ Step 2 is the cheapest falsification test: if matching precision on real camera 
 
 ## Deferred (v2+)
 
-- Health data donation (consent + PII problems are much harder)
+- Health data donation (consent + PII problems are much harder — and, per the [demand survey](docs/health-data-demand.md), addressable demand is thin and uses an incompatible authorized-ingest/revocable fulfillment model, not just a harder version of v1)
 - AI transcript donation for open datasets (PII scrubbing pipeline required)
 - Non-Wikimedia want publishers + federation/signing
 - Audio wants (pronunciations) — actually a plausible early add: small files, low privacy risk
