@@ -8,7 +8,9 @@ metadata. See [PLAN.md](PLAN.md) for the full project plan.
 The **demand registry is the real project**: a compiler turns existing
 Wikimedia demand signals (Wikidata items missing an image, etc.) into a
 standard "want" format, distributed as dumb, static, geo-sharded JSON
-bundles. The mobile app is one client of that registry.
+bundles. The mobile app is one client of that registry. A survey of
+candidate demand sources — Wikimedia and beyond — lives in
+[docs/demand-signals.md](docs/demand-signals.md).
 
 ## Status
 

@@ -52,7 +52,7 @@ Key design decisions:
 3. **Fulfillment carries structured data** (`depicts` QID) so wants auto-expire and curators get deduplicatable submissions.
 4. **Label vocabulary is mapped once, centrally** (Wikidata class → classifier label), not improvised per client.
 
-Demand signals to compile (v1 is a *compiler over existing signals*, not a new social process):
+Demand signals to compile (v1 is a *compiler over existing signals*, not a new social process — see [docs/demand-signals.md](docs/demand-signals.md) for the full source survey and ranking):
 
 - Wikidata items missing image (P18), geocoded via P625 — the motherlode, SPARQL-queryable.
 - Other image properties: grave photo, interior view, nighttime view, audio pronunciation — each a precise want type.
