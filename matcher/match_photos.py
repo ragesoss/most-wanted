@@ -8,25 +8,32 @@ Candidates are placed in confidence tiers per PLAN.md:
     auto_suggest   geo well inside the radius AND heading points at the
                    subject — or the photo is near-field (within ~30 m) of
                    the only matching want, where heading carries no signal.
-                   (When the semantic classifier lands, it must also agree
-                   before this tier is allowed.)
-    worth_a_look   inside the radius; heading unknown or inconclusive
+                   When a semantic backend is active (--semantic), the
+                   classifier must also agree before this tier is allowed.
+    worth_a_look   inside the radius; heading unknown or inconclusive, or
+                   the classifier is unsure, or the position was inferred
+                   rather than read from EXIF
     long_shot      just outside the radius, heading points away, or the
                    photo's timestamp falls after a time_window 'before' date
                    (EXIF dates on scanned photos are unreliable, so this
                    demotes rather than rejects)
 
-Pipeline order per the plan: spatial join first, semantic rejection second.
-The semantic step is a stub here (`semantic_check` returns None = unknown);
-it is the integration point for a MobileCLIP-class embedding model scoring
-the photo against subject.classifier_labels.
+Candidates the classifier actively rejects ("want says church; photo is a
+selfie") are dropped entirely and counted in stats.semantic_rejected.
+
+No-GPS fallback (burst clustering): photos without GPS but with a
+timestamp inherit the position of the nearest-in-time geotagged photo
+within --time-window-min (people photograph in bursts from one place).
+Inferred positions get extra distance slack proportional to the time gap
+(walking drift) and are never auto-suggested. Photos with neither GPS nor
+a usable neighbor land in the 'no_gps' pile.
 
 Output: JSON report on stdout or --out, one entry per photo, candidates
-sorted best-first. Photos without GPS are listed under 'no_gps' — they are
-the input to the plan's clustering fallback, which does not exist yet.
+sorted best-first.
 
-Dependencies: piexif (pure Python). HEIC is not handled; export/convert to
-JPEG first.
+Dependencies: piexif (pure Python); --semantic clip additionally needs
+torch + open_clip_torch and network access for weights on first use.
+HEIC is not handled; export/convert to JPEG first.
 """
 
 import argparse
@@ -39,11 +46,14 @@ import piexif
 
 sys.path.insert(0, str(Path(__file__).parent))
 from geo import angle_diff_deg, haversine_m, initial_bearing_deg
+from semantic import build_checker
 
 GPS_SLACK_M = 60  # typical phone GPS error allowance
 HEADING_AGREE_DEG = 50
 HEADING_DISAGREE_DEG = 120
 HEADING_NEAR_FIELD_M = 30  # standing on top of the subject: heading means little
+DRIFT_M_PER_MIN = 25  # walking-pace position uncertainty for inferred GPS
+DRIFT_CAP_M = 500
 
 
 def rational_to_float(value):
@@ -85,22 +95,19 @@ def load_wants(bundles_dir):
     return wants
 
 
-def semantic_check(photo_path, want):
-    """Stub for the on-device classifier (semantic-rejection step).
-
-    Returns True (category agrees), False (reject), or None (unknown).
-    Real implementation: embed the photo, compare against
-    want['subject']['classifier_labels'] with a MobileCLIP-class model.
-    """
-    return None
-
-
-def evaluate_candidate(photo, want, photo_path):
+def evaluate_candidate(photo, want, photo_path, checker, extra_slack_m=0):
+    """Score one (photo, want) pair; None = not a candidate, 'rejected' = semantic reject."""
     geo = want["geo"]
     dist = haversine_m(photo["lat"], photo["lon"], geo["lat"], geo["lon"])
-    reach = geo["radius_m"] + GPS_SLACK_M
+    reach = geo["radius_m"] + GPS_SLACK_M + extra_slack_m
     if dist > 2 * reach:
         return None
+
+    # Spatial join first, semantic rejection second (PLAN.md pipeline order):
+    # the classifier only ever sees geo candidates.
+    semantic = checker(photo_path, want) if checker else None
+    if semantic is False:
+        return "rejected"
 
     heading_status = "unknown"
     if photo["heading"] is not None:
@@ -131,21 +138,25 @@ def evaluate_candidate(photo, want, photo_path):
                 time_status = "after_end_date"
                 notes.append(f"photo dated after subject's end date {tw['before']} (EXIF date may be wrong for scans)")
 
-    semantic = semantic_check(photo_path, want)
-    if semantic is False:
-        return None
+    classifier = "not_run"
+    if checker is not None:
+        classifier = "agree" if semantic else "unsure"
 
     inside = dist <= reach
     if not inside or heading_status == "disagree" or time_status == "after_end_date":
         tier = "long_shot"
-    elif heading_status == "agree" and dist <= geo["radius_m"]:
-        # With the classifier wired in, also require semantic is True here.
+    elif (
+        heading_status == "agree"
+        and dist <= geo["radius_m"] + extra_slack_m
+        and classifier in ("agree", "not_run")
+    ):
         tier = "auto_suggest"
     else:
         tier = "worth_a_look"
 
     score = max(0.0, 1 - dist / reach)
     score += {"agree": 0.4, "near_field": 0.1, "near_field_away": -0.2, "disagree": -0.5}.get(heading_status, 0.0)
+    score += {"agree": 0.2, "unsure": -0.1}.get(classifier, 0.0)
     score += min(want.get("priority", {}).get("sitelinks", 0), 10) * 0.01
 
     return {
@@ -156,10 +167,27 @@ def evaluate_candidate(photo, want, photo_path):
         "radius_m": geo["radius_m"],
         "heading": heading_status,
         "time": time_status,
-        "classifier": "not_run" if semantic is None else "agree",
+        "classifier": classifier,
         "score": round(score, 3),
         "notes": notes,
     }
+
+
+def infer_position(photo, geotagged, window_min):
+    """Nearest-in-time geotagged neighbor within the window, or None."""
+    if photo["taken"] is None:
+        return None
+    best, best_gap = None, None
+    for name, other in geotagged:
+        if other["taken"] is None:
+            continue
+        gap = abs((photo["taken"] - other["taken"]).total_seconds())
+        if gap <= window_min * 60 and (best_gap is None or gap < best_gap):
+            best, best_gap = (name, other), gap
+    if best is None:
+        return None
+    name, other = best
+    return {"lat": other["lat"], "lon": other["lon"], "from": name, "gap_min": best_gap / 60}
 
 
 def main():
@@ -168,48 +196,83 @@ def main():
     ap.add_argument("--bundles", default="data/bundles", help="compiler output directory")
     ap.add_argument("--out", help="write JSON report here instead of stdout")
     ap.add_argument("--max-candidates", type=int, default=5, help="per photo")
+    ap.add_argument("--semantic", default="off", choices=["off", "clip", "exif-tag"],
+                    help="semantic-rejection backend (exif-tag is test-only)")
+    ap.add_argument("--time-window-min", type=float, default=45,
+                    help="burst window for inferring positions of GPS-less photos")
     args = ap.parse_args()
 
+    checker = build_checker(args.semantic)
+    semantic_active = checker is not None
     wants = load_wants(args.bundles)
-    report = {"photos": [], "no_gps": [], "stats": {"wants_loaded": len(wants)}}
+    report = {"photos": [], "no_gps": [], "stats": {"wants_loaded": len(wants), "semantic_rejected": 0}}
 
     paths = sorted(p for p in Path(args.photos).iterdir() if p.suffix.lower() in (".jpg", ".jpeg"))
-    for path in paths:
-        photo = read_exif(path)
+    photos = [(p, read_exif(p)) for p in paths]
+    geotagged = [(p.name, e) for p, e in photos if e["lat"] is not None]
+
+    for path, exif in photos:
+        photo = dict(exif)
+        gps_source = "exif"
+        extra_slack = 0
+        inferred_from = None
         if photo["lat"] is None:
-            report["no_gps"].append(path.name)
-            continue
+            inferred = infer_position(photo, geotagged, args.time_window_min)
+            if inferred is None:
+                report["no_gps"].append(path.name)
+                continue
+            photo["lat"], photo["lon"] = inferred["lat"], inferred["lon"]
+            photo["heading"] = None  # heading is meaningless at a borrowed position
+            gps_source = "inferred"
+            extra_slack = min(DRIFT_CAP_M, DRIFT_M_PER_MIN * inferred["gap_min"])
+            inferred_from = {"file": inferred["from"], "gap_min": round(inferred["gap_min"], 1)}
+
         candidates = []
         for want in wants:
-            cand = evaluate_candidate(photo, want, path)
-            if cand:
+            cand = evaluate_candidate(photo, want, path, checker, extra_slack)
+            if cand == "rejected":
+                report["stats"]["semantic_rejected"] += 1
+            elif cand:
                 candidates.append(cand)
         candidates.sort(key=lambda c: -c["score"])
-        # Near-field promotion: standing within HEADING_NEAR_FIELD_M of the
-        # subject is the strongest geo evidence available, and heading is
-        # geometrically meaningless there. Promote to auto_suggest only when
-        # unambiguous (no other want's circle also contains the photo) and
-        # heading is not actively contrary ('near_field_away').
-        inside = [c for c in candidates if c["tier"] != "long_shot"]
-        if (
-            len(inside) == 1
-            and inside[0]["heading"] in ("near_field", "unknown")
-            and inside[0]["distance_m"] <= HEADING_NEAR_FIELD_M
-        ):
-            inside[0]["tier"] = "auto_suggest"
-        report["photos"].append(
-            {
-                "file": path.name,
-                "taken": photo["taken"].isoformat() if photo["taken"] else None,
-                "heading": photo["heading"],
-                "candidates": candidates[: args.max_candidates],
-            }
-        )
+
+        if gps_source == "inferred":
+            # An inferred position is never strong enough to auto-suggest.
+            for c in candidates:
+                if c["tier"] == "auto_suggest":
+                    c["tier"] = "worth_a_look"
+        else:
+            # Near-field promotion: standing within HEADING_NEAR_FIELD_M of the
+            # subject is the strongest geo evidence available, and heading is
+            # geometrically meaningless there. Promote to auto_suggest only when
+            # unambiguous (no other want's circle also contains the photo),
+            # heading is not actively contrary ('near_field_away'), and the
+            # classifier — if running — agrees.
+            inside = [c for c in candidates if c["tier"] != "long_shot"]
+            if (
+                len(inside) == 1
+                and inside[0]["heading"] in ("near_field", "unknown")
+                and inside[0]["distance_m"] <= HEADING_NEAR_FIELD_M
+                and inside[0]["classifier"] in ("agree", "not_run")
+            ):
+                inside[0]["tier"] = "auto_suggest"
+
+        entry = {
+            "file": path.name,
+            "taken": photo["taken"].isoformat() if photo["taken"] else None,
+            "heading": photo["heading"],
+            "gps": gps_source,
+            "candidates": candidates[: args.max_candidates],
+        }
+        if inferred_from:
+            entry["inferred_from"] = inferred_from
+        report["photos"].append(entry)
 
     tiers = [c["tier"] for p in report["photos"] for c in p["candidates"]]
     report["stats"].update(
         photos_scanned=len(paths),
-        photos_with_gps=len(report["photos"]),
+        photos_with_gps=len(geotagged),
+        photos_inferred_gps=sum(1 for p in report["photos"] if p["gps"] == "inferred"),
         photos_without_gps=len(report["no_gps"]),
         candidates={t: tiers.count(t) for t in ("auto_suggest", "worth_a_look", "long_shot")},
     )

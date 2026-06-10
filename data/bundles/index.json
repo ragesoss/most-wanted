@@ -1,6 +1,6 @@
 {
  "format_version": "0.1",
- "generated": "2026-06-10T18:45:23+00:00",
+ "generated": "2026-06-10T19:30:54+00:00",
  "publisher": "wikimedia/wikidata-p18-missing",
  "geohash_precision": 5,
  "bundles": {
@@ -9,8 +9,8 @@
    "bytes": 872
   },
   "c22yp": {
-   "count": 3,
-   "bytes": 2384
+   "count": 4,
+   "bytes": 3137
   },
   "c22yq": {
    "count": 1,
@@ -21,20 +21,20 @@
    "bytes": 3906
   },
   "c22yx": {
-   "count": 7,
-   "bytes": 5586
+   "count": 11,
+   "bytes": 8649
   },
   "c22yz": {
-   "count": 10,
-   "bytes": 7808
+   "count": 13,
+   "bytes": 10095
   },
   "c22zn": {
    "count": 7,
    "bytes": 5533
   },
   "c22zp": {
-   "count": 15,
-   "bytes": 11711
+   "count": 16,
+   "bytes": 12474
   },
   "c22zr": {
    "count": 3,
@@ -53,12 +53,12 @@
    "bytes": 1000
   },
   "c23n2": {
-   "count": 5,
-   "bytes": 3888
+   "count": 6,
+   "bytes": 4695
   },
   "c23n3": {
-   "count": 2,
-   "bytes": 1642
+   "count": 4,
+   "bytes": 3170
   },
   "c23n4": {
    "count": 2,
@@ -69,32 +69,32 @@
    "bytes": 1628
   },
   "c23n8": {
-   "count": 11,
-   "bytes": 8660
+   "count": 12,
+   "bytes": 9419
   },
   "c23n9": {
-   "count": 12,
-   "bytes": 9262
+   "count": 13,
+   "bytes": 10025
   },
   "c23nb": {
-   "count": 104,
-   "bytes": 80746
+   "count": 119,
+   "bytes": 92276
   },
   "c23nc": {
-   "count": 3,
-   "bytes": 2479
+   "count": 6,
+   "bytes": 4784
   },
   "c23nd": {
-   "count": 6,
-   "bytes": 4682
+   "count": 7,
+   "bytes": 5432
   },
   "c23nf": {
    "count": 4,
    "bytes": 3149
   },
   "c23p0": {
-   "count": 32,
-   "bytes": 25286
+   "count": 36,
+   "bytes": 28410
   },
   "c23p1": {
    "count": 8,
@@ -126,9 +126,9 @@
   }
  },
  "stats": {
-  "review": 67,
-  "include": 264,
-  "exclude": 23,
+  "include": 301,
+  "review": 16,
+  "exclude": 37,
   "no_class": 37,
   "exclude_privacy": 1,
   "unlabeled": 1,

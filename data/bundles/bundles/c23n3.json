@@ -1,7 +1,7 @@
 {
  "format_version": "0.1",
  "geohash": "c23n3",
- "generated": "2026-06-10T18:45:23+00:00",
+ "generated": "2026-06-10T19:30:54+00:00",
  "wants": [
   {
    "id": "wd-p18/Q4700847",
@@ -41,6 +41,86 @@
    },
    "status_check": {
     "sparql_ask": "ASK { wd:Q4700847 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49320245",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49320245",
+    "label": "Brighton Beach",
+    "classes": [
+     "Q40080"
+    ],
+    "classifier_labels": [
+     "beach",
+     "shoreline"
+    ]
+   },
+   "geo": {
+    "lat": 47.543888888,
+    "lon": -122.257777777,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49320245"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49320245 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49324397",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49324397",
+    "label": "Pritchett Island Beach",
+    "classes": [
+     "Q40080"
+    ],
+    "classifier_labels": [
+     "beach",
+     "shoreline"
+    ]
+   },
+   "geo": {
+    "lat": 47.529444444,
+    "lon": -122.263055555,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49324397"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49324397 wdt:P18 [] }"
    }
   },
   {

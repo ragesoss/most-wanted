@@ -1,7 +1,7 @@
 {
  "format_version": "0.1",
  "geohash": "c23n2",
- "generated": "2026-06-10T18:45:23+00:00",
+ "generated": "2026-06-10T19:30:54+00:00",
  "wants": [
   {
    "id": "wd-p18/Q49003195",
@@ -197,6 +197,47 @@
    },
    "status_check": {
     "sparql_ask": "ASK { wd:Q49579222 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q106978476",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q106978476",
+    "label": "South Seattle College Georgetown Campus",
+    "classes": [
+     "Q1336920",
+     "Q209465"
+    ],
+    "classifier_labels": [
+     "campus",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.542917181,
+    "lon": -122.325512016,
+    "radius_m": 600
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q106978476"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q106978476 wdt:P18 [] }"
    }
   }
  ]

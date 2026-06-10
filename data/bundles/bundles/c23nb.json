@@ -1,7 +1,7 @@
 {
  "format_version": "0.1",
  "geohash": "c23nb",
- "generated": "2026-06-10T18:45:23+00:00",
+ "generated": "2026-06-10T19:30:54+00:00",
  "wants": [
   {
    "id": "wd-p18/Q118451826",
@@ -202,6 +202,46 @@
    }
   },
   {
+   "id": "wd-p18/Q113372044",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113372044",
+    "label": "Athenian Seafood Restaurant and Bar",
+    "classes": [
+     "Q17102985"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.608833333,
+    "lon": -122.341166666,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113372044"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113372044 wdt:P18 [] }"
+   }
+  },
+  {
    "id": "wd-p18/Q113372049",
    "publisher": "wikimedia/wikidata-p18-missing",
    "type": "photo",
@@ -319,6 +359,86 @@
    },
    "status_check": {
     "sparql_ask": "ASK { wd:Q113372125 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113395954",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113395954",
+    "label": "Ristorante Machiavelli",
+    "classes": [
+     "Q53847673"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.615,
+    "lon": -122.328055555,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113395954"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113395954 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q114495278",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q114495278",
+    "label": "Fisherman's Restaurant and Bar",
+    "classes": [
+     "Q17102985"
+    ],
+    "classifier_labels": [
+     "restaurant",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.606111111,
+    "lon": -122.341111111,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q114495278"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q114495278 wdt:P18 [] }"
    }
   },
   {
@@ -442,6 +562,46 @@
    }
   },
   {
+   "id": "wd-p18/Q114797778",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q114797778",
+    "label": "Giant Shoe Museum",
+    "classes": [
+     "Q33506"
+    ],
+    "classifier_labels": [
+     "museum",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6086,
+    "lon": -122.3407,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q114797778"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q114797778 wdt:P18 [] }"
+   }
+  },
+  {
    "id": "wd-p18/Q114810701",
    "publisher": "wikimedia/wikidata-p18-missing",
    "type": "photo",
@@ -519,6 +679,85 @@
    },
    "status_check": {
     "sparql_ask": "ASK { wd:Q114859624 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q114865791",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q114865791",
+    "label": "Shug's Soda Fountain and Ice Cream",
+    "classes": [
+     "Q1311064"
+    ],
+    "classifier_labels": [
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.6095,
+    "lon": -122.3409,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q114865791"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q114865791 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q114880131",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q114880131",
+    "label": "Golden Age Collectables",
+    "classes": [
+     "Q16590780"
+    ],
+    "classifier_labels": [
+     "bookstore",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.608593,
+    "lon": -122.340928,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q114880131"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q114880131 wdt:P18 [] }"
    }
   },
   {
@@ -1001,6 +1240,45 @@
    }
   },
   {
+   "id": "wd-p18/Q115804749",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115804749",
+    "label": "Overlook Walk",
+    "classes": [
+     "Q1068842"
+    ],
+    "classifier_labels": [
+     "bridge"
+    ]
+   },
+   "geo": {
+    "lat": 47.608611111,
+    "lon": -122.342777777,
+    "radius_m": 200
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115804749"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115804749 wdt:P18 [] }"
+   }
+  },
+  {
    "id": "wd-p18/Q115805566",
    "publisher": "wikimedia/wikidata-p18-missing",
    "type": "photo",
@@ -1081,6 +1359,46 @@
    }
   },
   {
+   "id": "wd-p18/Q115815878",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115815878",
+    "label": "Zeitgeist Coffee",
+    "classes": [
+     "Q4236467"
+    ],
+    "classifier_labels": [
+     "café",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.5991,
+    "lon": -122.33185,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115815878"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115815878 wdt:P18 [] }"
+   }
+  },
+  {
    "id": "wd-p18/Q115966985",
    "publisher": "wikimedia/wikidata-p18-missing",
    "type": "photo",
@@ -1118,6 +1436,45 @@
    },
    "status_check": {
     "sparql_ask": "ASK { wd:Q115966985 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q116175358",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q116175358",
+    "label": "Amazon Headquarters Complex",
+    "classes": [
+     "Q1497364"
+    ],
+    "classifier_labels": [
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.615556,
+    "lon": -122.339444,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q116175358"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q116175358 wdt:P18 [] }"
    }
   },
   {
@@ -1479,6 +1836,46 @@
    }
   },
   {
+   "id": "wd-p18/Q115780307",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q115780307",
+    "label": "The Red Popsicle",
+    "classes": [
+     "Q9325291"
+    ],
+    "classifier_labels": [
+     "sculpture",
+     "statue"
+    ]
+   },
+   "geo": {
+    "lat": 47.614416666,
+    "lon": -122.342666666,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q115780307"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q115780307 wdt:P18 [] }"
+   }
+  },
+  {
    "id": "wd-p18/Q115809872",
    "publisher": "wikimedia/wikidata-p18-missing",
    "type": "photo",
@@ -1837,6 +2234,46 @@
    }
   },
   {
+   "id": "wd-p18/Q49024302",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49024302",
+    "label": "Denny Hill",
+    "classes": [
+     "Q8502"
+    ],
+    "classifier_labels": [
+     "mountain",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.609,
+    "lon": -122.3221,
+    "radius_m": 1000
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49024302"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49024302 wdt:P18 [] }"
+   }
+  },
+  {
    "id": "wd-p18/Q4921944",
    "publisher": "wikimedia/wikidata-p18-missing",
    "type": "photo",
@@ -1917,6 +2354,46 @@
    }
   },
   {
+   "id": "wd-p18/Q104531723",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q104531723",
+    "label": "Barnes & Noble Downtown Seattle",
+    "classes": [
+     "Q59769581"
+    ],
+    "classifier_labels": [
+     "bookstore",
+     "storefront"
+    ]
+   },
+   "geo": {
+    "lat": 47.612786724,
+    "lon": -122.334791312,
+    "radius_m": 150
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q104531723"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q104531723 wdt:P18 [] }"
+   }
+  },
+  {
    "id": "wd-p18/Q105036749",
    "publisher": "wikimedia/wikidata-p18-missing",
    "type": "photo",
@@ -1956,6 +2433,125 @@
    },
    "status_check": {
     "sparql_ask": "ASK { wd:Q105036749 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111119606",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111119606",
+    "label": "Green Tortoise Seattle Hostel",
+    "classes": [
+     "Q654772"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.608866,
+    "lon": -122.3395579,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111119606"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111119606 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111119607",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111119607",
+    "label": "HI Seattle at the American Hotel",
+    "classes": [
+     "Q654772"
+    ],
+    "classifier_labels": [
+     "hotel",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.598469,
+    "lon": -122.3264945,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111119607"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111119607 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q111339847",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q111339847",
+    "label": "Battery Street Tunnel",
+    "classes": [
+     "Q44377"
+    ],
+    "classifier_labels": [
+     "tunnel"
+    ]
+   },
+   "geo": {
+    "lat": 47.618919444,
+    "lon": -122.343608333,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q111339847"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q111339847 wdt:P18 [] }"
    }
   },
   {

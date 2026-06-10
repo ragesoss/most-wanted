@@ -9,165 +9,1333 @@
   "version": "0.1",
   "default_radius_m": 250,
   "classes": {
-    "Q22698": { "label": "park", "decision": "include", "classifier_labels": ["park", "green space"], "radius_m": 400 },
-    "Q22746": { "label": "urban park", "decision": "include", "classifier_labels": ["park", "green space"], "radius_m": 400 },
-    "Q167346": { "label": "botanical garden", "decision": "include", "classifier_labels": ["garden", "park"], "radius_m": 400 },
-    "Q47692": { "label": "Chinese garden", "decision": "include", "classifier_labels": ["garden", "park"] },
-    "Q84343482": { "label": "memorial garden", "decision": "include", "classifier_labels": ["garden", "park"] },
-    "Q236371": { "label": "orchard", "decision": "include", "classifier_labels": ["orchard", "vegetation"] },
-    "Q39614": { "label": "cemetery", "decision": "include", "classifier_labels": ["cemetery"], "radius_m": 400 },
-
-    "Q41176": { "label": "building", "decision": "include", "classifier_labels": ["building"] },
-    "Q19844914": { "label": "university building", "decision": "include", "classifier_labels": ["building"] },
-    "Q11303": { "label": "skyscraper", "decision": "include", "classifier_labels": ["skyscraper", "building"], "radius_m": 400 },
-    "Q1021645": { "label": "office building", "decision": "include", "classifier_labels": ["building"] },
-    "Q13402009": { "label": "apartment building", "decision": "include", "classifier_labels": ["building"] },
-    "Q6692780": { "label": "low-rise building", "decision": "include", "classifier_labels": ["building"] },
-    "Q811430": { "label": "fixed construction", "decision": "include", "classifier_labels": ["structure"] },
-    "Q16970": { "label": "church building", "decision": "include", "classifier_labels": ["church", "building"] },
-    "Q1370598": { "label": "structure of worship", "decision": "include", "classifier_labels": ["church", "building"] },
-    "Q22908": { "label": "retirement home", "decision": "include", "classifier_labels": ["building"] },
-    "Q2945640": { "label": "LGBT community center", "decision": "include", "classifier_labels": ["building"] },
-    "Q8341851": { "label": "Basque center", "decision": "include", "classifier_labels": ["building"] },
-    "Q83405": { "label": "factory", "decision": "include", "classifier_labels": ["factory", "industrial building"] },
-    "Q190928": { "label": "shipyard", "decision": "include", "classifier_labels": ["industrial waterfront"], "radius_m": 400 },
-    "Q19860854": { "label": "destroyed building or structure", "decision": "include", "classifier_labels": ["building"], "historical": true },
-    "Q1570262": { "label": "unfinished building", "decision": "include", "classifier_labels": ["building", "construction site"] },
-
-    "Q11707": { "label": "restaurant", "decision": "include", "classifier_labels": ["restaurant", "storefront"], "radius_m": 150 },
-    "Q30022": { "label": "café", "decision": "include", "classifier_labels": ["café", "storefront"], "radius_m": 150 },
-    "Q187456": { "label": "bar", "decision": "include", "classifier_labels": ["bar", "storefront"], "radius_m": 150 },
-    "Q1043639": { "label": "gay bar", "decision": "include", "classifier_labels": ["bar", "storefront"], "radius_m": 150 },
-    "Q1684522": { "label": "jazz club", "decision": "include", "classifier_labels": ["bar", "storefront"], "radius_m": 150 },
-    "Q8719053": { "label": "music venue", "decision": "include", "classifier_labels": ["storefront", "building"], "radius_m": 150 },
-    "Q41253": { "label": "movie theater", "decision": "include", "classifier_labels": ["movie theater", "storefront"], "radius_m": 150 },
-    "Q786922": { "label": "drive-in theater", "decision": "include", "classifier_labels": ["drive-in theater"], "radius_m": 300 },
-    "Q27686": { "label": "hotel", "decision": "include", "classifier_labels": ["hotel", "building"] },
-    "Q17350442": { "label": "venue", "decision": "include", "classifier_labels": ["building"] },
-    "Q153562": { "label": "opera house", "decision": "include", "classifier_labels": ["theater", "building"] },
-    "Q1007870": { "label": "art gallery", "decision": "include", "classifier_labels": ["storefront", "building"], "radius_m": 150 },
-    "Q2281788": { "label": "public aquarium", "decision": "include", "classifier_labels": ["building"] },
-
-    "Q3914": { "label": "school", "decision": "include", "classifier_labels": ["school", "building"] },
-    "Q9826": { "label": "high school", "decision": "include", "classifier_labels": ["school", "building"] },
-    "Q149566": { "label": "middle school", "decision": "include", "classifier_labels": ["school", "building"] },
-    "Q11396180": { "label": "library branch", "decision": "include", "classifier_labels": ["library", "building"] },
-    "Q28564": { "label": "public library", "decision": "include", "classifier_labels": ["library", "building"] },
-    "Q12317349": { "label": "main library", "decision": "include", "classifier_labels": ["library", "building"] },
-    "Q385994": { "label": "special library", "decision": "include", "classifier_labels": ["library", "building"] },
-    "Q856234": { "label": "academic library", "decision": "include", "classifier_labels": ["library", "building"] },
-    "Q1438040": { "label": "research library", "decision": "include", "classifier_labels": ["library", "building"] },
-
-    "Q860861": { "label": "sculpture", "decision": "include", "classifier_labels": ["sculpture", "statue"], "radius_m": 100 },
-    "Q179700": { "label": "statue", "decision": "include", "classifier_labels": ["sculpture", "statue"], "radius_m": 100 },
-    "Q19479037": { "label": "sculpture series", "decision": "include", "classifier_labels": ["sculpture", "statue"], "radius_m": 100 },
-    "Q838948": { "label": "work of art", "decision": "include", "classifier_labels": ["artwork"], "radius_m": 100 },
-    "Q4502142": { "label": "visual artwork", "decision": "include", "classifier_labels": ["artwork"], "radius_m": 100 },
-    "Q1784021": { "label": "artwork copy", "decision": "include", "classifier_labels": ["artwork"], "radius_m": 100 },
-
-    "Q12323": { "label": "dam", "decision": "include", "classifier_labels": ["dam"], "radius_m": 400 },
-    "Q537127": { "label": "road bridge", "decision": "include", "classifier_labels": ["bridge"], "radius_m": 400 },
-    "Q2104072": { "label": "pontoon bridge", "decision": "include", "classifier_labels": ["bridge"], "radius_m": 400 },
-    "Q863454": { "label": "pier", "decision": "include", "classifier_labels": ["pier", "waterfront"], "radius_m": 300 },
-    "Q483110": { "label": "stadium", "decision": "include", "classifier_labels": ["stadium"], "radius_m": 400 },
-    "Q200023": { "label": "swimming center", "decision": "include", "classifier_labels": ["swimming pool", "building"] },
-    "Q502074": { "label": "heliport", "decision": "include", "classifier_labels": ["heliport"], "radius_m": 150 },
-    "Q2175765": { "label": "tram stop", "decision": "include", "classifier_labels": ["tram stop", "station"], "radius_m": 100 },
-    "Q132555858": { "label": "railway station in a highway median", "decision": "include", "classifier_labels": ["station"], "radius_m": 150 },
-    "Q83620": { "label": "thoroughfare", "decision": "include", "classifier_labels": ["street"], "radius_m": 300 },
-    "Q245016": { "label": "military base", "decision": "include", "classifier_labels": ["building", "military"], "radius_m": 600 },
-
-    "Q4022": { "label": "river", "decision": "include", "classifier_labels": ["river", "water"], "radius_m": 500 },
-    "Q47521": { "label": "stream", "decision": "include", "classifier_labels": ["river", "water"], "radius_m": 400 },
-    "Q39594": { "label": "bay", "decision": "include", "classifier_labels": ["water", "landscape"], "radius_m": 800 },
-    "Q1210950": { "label": "channel", "decision": "include", "classifier_labels": ["water"], "radius_m": 800 },
-    "Q23442": { "label": "island", "decision": "include", "classifier_labels": ["island", "landscape"], "radius_m": 600 },
-    "Q185113": { "label": "cape", "decision": "include", "classifier_labels": ["coastline", "landscape"], "radius_m": 600 },
-
-    "Q1307276": { "label": "single-family detached home", "decision": "exclude_privacy", "reason": "private residence; soliciting photos of it conflicts with the project's location-privacy stance even when the item is notable" },
-
-    "Q163740": { "label": "nonprofit organization", "decision": "exclude", "reason": "organization; coordinates are an office address" },
-    "Q43229": { "label": "organization", "decision": "exclude", "reason": "organization" },
-    "Q4830453": { "label": "business", "decision": "exclude", "reason": "organization" },
-    "Q6881511": { "label": "enterprise", "decision": "exclude", "reason": "organization" },
-    "Q783794": { "label": "company", "decision": "exclude", "reason": "organization" },
-    "Q167037": { "label": "corporation", "decision": "exclude", "reason": "organization" },
-    "Q157031": { "label": "foundation", "decision": "exclude", "reason": "organization" },
-    "Q18325436": { "label": "501(c)(3) organization", "decision": "exclude", "reason": "organization" },
-    "Q708676": { "label": "charitable organization", "decision": "exclude", "reason": "organization" },
-    "Q327333": { "label": "government agency", "decision": "exclude", "reason": "organization" },
-    "Q4287745": { "label": "medical organization", "decision": "exclude", "reason": "organization" },
-    "Q155271": { "label": "think tank", "decision": "exclude", "reason": "organization" },
-    "Q955824": { "label": "learned society", "decision": "exclude", "reason": "organization" },
-    "Q5504285": { "label": "friends of libraries", "decision": "exclude", "reason": "organization" },
-    "Q398141": { "label": "school district", "decision": "exclude", "reason": "administrative entity" },
-    "Q5154933": { "label": "community college district", "decision": "exclude", "reason": "administrative entity" },
-    "Q98456412": { "label": "school accreditor", "decision": "exclude", "reason": "organization" },
-    "Q4502119": { "label": "art group", "decision": "exclude", "reason": "organization" },
-    "Q6815100": { "label": "membership organization", "decision": "exclude", "reason": "organization" },
-    "Q17084016": { "label": "nonprofit corporation", "decision": "exclude", "reason": "organization" },
-    "Q742421": { "label": "theatre company", "decision": "exclude", "reason": "organization (troupe, not a venue)" },
-    "Q1140700": { "label": "improvisational theatre", "decision": "exclude", "reason": "organization (troupe, not a venue)" },
-    "Q2085381": { "label": "publishing house", "decision": "exclude", "reason": "organization" },
-    "Q11424629": { "label": "geography department", "decision": "exclude", "reason": "organization (academic unit)" },
-    "Q180958": { "label": "faculty", "decision": "exclude", "reason": "organization (academic unit)" },
-    "Q28863779": { "label": "university research group", "decision": "exclude", "reason": "organization (academic unit)" },
-    "Q5259432": { "label": "dental school", "decision": "exclude", "reason": "organization (academic unit)" },
-    "Q2143781": { "label": "drama school", "decision": "exclude", "reason": "organization (academic unit)" },
-    "Q446901": { "label": "nursing school", "decision": "exclude", "reason": "organization (academic unit)" },
-    "Q494230": { "label": "medical school", "decision": "exclude", "reason": "organization (academic unit)" },
-    "Q69964246": { "label": "school of public health", "decision": "exclude", "reason": "organization (academic unit)" },
-    "Q16274795": { "label": "shipbuilding company", "decision": "exclude", "reason": "organization" },
-    "Q1225034": { "label": "virtual museum", "decision": "exclude", "reason": "no physical site" },
-    "Q137183855": { "label": "perfume brand", "decision": "exclude", "reason": "brand, not a place" },
-    "Q2001305": { "label": "television channel", "decision": "exclude", "reason": "organization/medium" },
-    "Q1555508": { "label": "radio program", "decision": "exclude", "reason": "creative work" },
-    "Q3464665": { "label": "television series season", "decision": "exclude", "reason": "creative work" },
-    "Q27020041": { "label": "sports season", "decision": "exclude", "reason": "event" },
-    "Q18558301": { "label": "college sports team", "decision": "exclude", "reason": "organization" },
-    "Q82969709": { "label": "softball team", "decision": "exclude", "reason": "organization" },
-    "Q220505": { "label": "film festival", "decision": "exclude", "reason": "event" },
-    "Q2192508": { "label": "ship collision", "decision": "exclude", "reason": "event" },
-    "Q2223653": { "label": "terrorist attack", "decision": "exclude", "reason": "event" },
-    "Q28100410": { "label": "2017 Women's March", "decision": "exclude", "reason": "event" },
-    "Q186117": { "label": "timeline", "decision": "exclude", "reason": "abstract entity" },
-    "Q18340550": { "label": "Wikimedia timeline", "decision": "exclude", "reason": "abstract entity" },
-    "Q192611": { "label": "electoral unit", "decision": "exclude", "reason": "administrative region; not a depictable subject" },
-    "Q7972581": { "label": "Washington state legislative districts", "decision": "exclude", "reason": "administrative region" },
-    "Q104146934": { "label": "US state-level electoral district", "decision": "exclude", "reason": "administrative region" },
-    "Q17166756": { "label": "United States congressional district", "decision": "exclude", "reason": "administrative region" },
-    "Q811683": { "label": "proposed building or structure", "decision": "exclude", "reason": "does not exist yet" },
-    "Q124835105": { "label": "proposed tower", "decision": "exclude", "reason": "does not exist yet" },
-
-    "Q123705": { "label": "neighborhood", "decision": "review", "reason": "photographable in principle but extent is vague; the classifier cannot confirm 'a neighborhood' — junk-upload risk" },
-    "Q486972": { "label": "human settlement", "decision": "review", "reason": "vague extent" },
-    "Q498162": { "label": "census-designated place in the United States", "decision": "review", "reason": "vague extent" },
-    "Q269528": { "label": "unincorporated area", "decision": "review", "reason": "vague extent" },
-    "Q149621": { "label": "district", "decision": "review", "reason": "vague extent" },
-    "Q74047": { "label": "ghost town", "decision": "review", "reason": "vague extent; often nothing visible remains" },
-    "Q31855": { "label": "research institute", "decision": "review", "reason": "org-vs-campus ambiguity" },
-    "Q7315155": { "label": "research center", "decision": "review", "reason": "org-vs-building ambiguity" },
-    "Q483242": { "label": "laboratory", "decision": "review", "reason": "org-vs-building ambiguity" },
-    "Q1814169": { "label": "physics laboratory", "decision": "review", "reason": "org-vs-building ambiguity" },
-    "Q13226383": { "label": "facility", "decision": "review", "reason": "too generic" },
-    "Q2385804": { "label": "educational institution", "decision": "review", "reason": "org-vs-campus ambiguity" },
-    "Q4671277": { "label": "academic institution", "decision": "review", "reason": "org-vs-campus ambiguity" },
-    "Q1792623": { "label": "arts educational institution", "decision": "review", "reason": "org-vs-campus ambiguity" },
-    "Q383092": { "label": "art academy", "decision": "review", "reason": "org-vs-campus ambiguity" },
-    "Q233324": { "label": "seminary", "decision": "review", "reason": "org-vs-campus ambiguity" },
-    "Q23002054": { "label": "private not-for-profit educational institution", "decision": "review", "reason": "org-vs-campus ambiguity" },
-    "Q380093": { "label": "film school", "decision": "review", "reason": "org-vs-building ambiguity" },
-    "Q166118": { "label": "archives", "decision": "review", "reason": "institution/collection, not clearly a building" },
-    "Q3152824": { "label": "cultural institution", "decision": "review", "reason": "organization, sometimes with a notable building" },
-    "Q14350": { "label": "radio station", "decision": "review", "reason": "org; studios/transmitter are photographable but P18 expectations unclear" },
-    "Q772298": { "label": "homeless shelter", "decision": "review", "reason": "photographable building, but soliciting photos raises dignity concerns for people nearby" },
-    "Q2141554": { "label": "recreational dive site", "decision": "review", "reason": "subject is underwater" },
-    "Q11446": { "label": "ship", "decision": "review", "reason": "may be scrapped/sunk; needs existence check" },
-    "Q12859788": { "label": "steamship", "decision": "review", "reason": "may be scrapped/sunk; needs existence check" },
-    "Q42245028": { "label": "sports hall of fame", "decision": "review", "reason": "usually inside another venue" },
-    "Q2577005": { "label": "superior court", "decision": "review", "reason": "institution; courthouse building is usually a separate item" },
-    "Q3125101": { "label": "trial court", "decision": "review", "reason": "institution; courthouse building is usually a separate item" },
-    "Q1032372": { "label": "hackspace", "decision": "review", "reason": "org-vs-venue ambiguity" },
-    "Q7882536": { "label": "non-denominational", "decision": "review", "reason": "not a type; data quality issue on the item" }
+    "Q22698": {
+      "label": "park",
+      "decision": "include",
+      "classifier_labels": [
+        "park",
+        "green space"
+      ],
+      "radius_m": 400
+    },
+    "Q22746": {
+      "label": "urban park",
+      "decision": "include",
+      "classifier_labels": [
+        "park",
+        "green space"
+      ],
+      "radius_m": 400
+    },
+    "Q167346": {
+      "label": "botanical garden",
+      "decision": "include",
+      "classifier_labels": [
+        "garden",
+        "park"
+      ],
+      "radius_m": 400
+    },
+    "Q47692": {
+      "label": "Chinese garden",
+      "decision": "include",
+      "classifier_labels": [
+        "garden",
+        "park"
+      ]
+    },
+    "Q84343482": {
+      "label": "memorial garden",
+      "decision": "include",
+      "classifier_labels": [
+        "garden",
+        "park"
+      ]
+    },
+    "Q236371": {
+      "label": "orchard",
+      "decision": "include",
+      "classifier_labels": [
+        "orchard",
+        "vegetation"
+      ]
+    },
+    "Q39614": {
+      "label": "cemetery",
+      "decision": "include",
+      "classifier_labels": [
+        "cemetery"
+      ],
+      "radius_m": 400
+    },
+    "Q41176": {
+      "label": "building",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ]
+    },
+    "Q19844914": {
+      "label": "university building",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ]
+    },
+    "Q11303": {
+      "label": "skyscraper",
+      "decision": "include",
+      "classifier_labels": [
+        "skyscraper",
+        "building"
+      ],
+      "radius_m": 400
+    },
+    "Q1021645": {
+      "label": "office building",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ]
+    },
+    "Q13402009": {
+      "label": "apartment building",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ]
+    },
+    "Q6692780": {
+      "label": "low-rise building",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ]
+    },
+    "Q811430": {
+      "label": "fixed construction",
+      "decision": "include",
+      "classifier_labels": [
+        "structure"
+      ]
+    },
+    "Q16970": {
+      "label": "church building",
+      "decision": "include",
+      "classifier_labels": [
+        "church",
+        "building"
+      ]
+    },
+    "Q1370598": {
+      "label": "structure of worship",
+      "decision": "include",
+      "classifier_labels": [
+        "church",
+        "building"
+      ]
+    },
+    "Q22908": {
+      "label": "retirement home",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ]
+    },
+    "Q2945640": {
+      "label": "LGBT community center",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ]
+    },
+    "Q8341851": {
+      "label": "Basque center",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ]
+    },
+    "Q83405": {
+      "label": "factory",
+      "decision": "include",
+      "classifier_labels": [
+        "factory",
+        "industrial building"
+      ]
+    },
+    "Q190928": {
+      "label": "shipyard",
+      "decision": "include",
+      "classifier_labels": [
+        "industrial waterfront"
+      ],
+      "radius_m": 400
+    },
+    "Q19860854": {
+      "label": "destroyed building or structure",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ],
+      "historical": true
+    },
+    "Q1570262": {
+      "label": "unfinished building",
+      "decision": "include",
+      "classifier_labels": [
+        "building",
+        "construction site"
+      ]
+    },
+    "Q11707": {
+      "label": "restaurant",
+      "decision": "include",
+      "classifier_labels": [
+        "restaurant",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q30022": {
+      "label": "café",
+      "decision": "include",
+      "classifier_labels": [
+        "café",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q187456": {
+      "label": "bar",
+      "decision": "include",
+      "classifier_labels": [
+        "bar",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q1043639": {
+      "label": "gay bar",
+      "decision": "include",
+      "classifier_labels": [
+        "bar",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q1684522": {
+      "label": "jazz club",
+      "decision": "include",
+      "classifier_labels": [
+        "bar",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q8719053": {
+      "label": "music venue",
+      "decision": "include",
+      "classifier_labels": [
+        "storefront",
+        "building"
+      ],
+      "radius_m": 150
+    },
+    "Q41253": {
+      "label": "movie theater",
+      "decision": "include",
+      "classifier_labels": [
+        "movie theater",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q786922": {
+      "label": "drive-in theater",
+      "decision": "include",
+      "classifier_labels": [
+        "drive-in theater"
+      ],
+      "radius_m": 300
+    },
+    "Q27686": {
+      "label": "hotel",
+      "decision": "include",
+      "classifier_labels": [
+        "hotel",
+        "building"
+      ]
+    },
+    "Q17350442": {
+      "label": "venue",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ]
+    },
+    "Q153562": {
+      "label": "opera house",
+      "decision": "include",
+      "classifier_labels": [
+        "theater",
+        "building"
+      ]
+    },
+    "Q1007870": {
+      "label": "art gallery",
+      "decision": "include",
+      "classifier_labels": [
+        "storefront",
+        "building"
+      ],
+      "radius_m": 150
+    },
+    "Q2281788": {
+      "label": "public aquarium",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ]
+    },
+    "Q3914": {
+      "label": "school",
+      "decision": "include",
+      "classifier_labels": [
+        "school",
+        "building"
+      ]
+    },
+    "Q9826": {
+      "label": "high school",
+      "decision": "include",
+      "classifier_labels": [
+        "school",
+        "building"
+      ]
+    },
+    "Q149566": {
+      "label": "middle school",
+      "decision": "include",
+      "classifier_labels": [
+        "school",
+        "building"
+      ]
+    },
+    "Q11396180": {
+      "label": "library branch",
+      "decision": "include",
+      "classifier_labels": [
+        "library",
+        "building"
+      ]
+    },
+    "Q28564": {
+      "label": "public library",
+      "decision": "include",
+      "classifier_labels": [
+        "library",
+        "building"
+      ]
+    },
+    "Q12317349": {
+      "label": "main library",
+      "decision": "include",
+      "classifier_labels": [
+        "library",
+        "building"
+      ]
+    },
+    "Q385994": {
+      "label": "special library",
+      "decision": "include",
+      "classifier_labels": [
+        "library",
+        "building"
+      ]
+    },
+    "Q856234": {
+      "label": "academic library",
+      "decision": "include",
+      "classifier_labels": [
+        "library",
+        "building"
+      ]
+    },
+    "Q1438040": {
+      "label": "research library",
+      "decision": "include",
+      "classifier_labels": [
+        "library",
+        "building"
+      ]
+    },
+    "Q860861": {
+      "label": "sculpture",
+      "decision": "include",
+      "classifier_labels": [
+        "sculpture",
+        "statue"
+      ],
+      "radius_m": 100
+    },
+    "Q179700": {
+      "label": "statue",
+      "decision": "include",
+      "classifier_labels": [
+        "sculpture",
+        "statue"
+      ],
+      "radius_m": 100
+    },
+    "Q19479037": {
+      "label": "sculpture series",
+      "decision": "include",
+      "classifier_labels": [
+        "sculpture",
+        "statue"
+      ],
+      "radius_m": 100
+    },
+    "Q838948": {
+      "label": "work of art",
+      "decision": "include",
+      "classifier_labels": [
+        "artwork"
+      ],
+      "radius_m": 100
+    },
+    "Q4502142": {
+      "label": "visual artwork",
+      "decision": "include",
+      "classifier_labels": [
+        "artwork"
+      ],
+      "radius_m": 100
+    },
+    "Q1784021": {
+      "label": "artwork copy",
+      "decision": "include",
+      "classifier_labels": [
+        "artwork"
+      ],
+      "radius_m": 100
+    },
+    "Q12323": {
+      "label": "dam",
+      "decision": "include",
+      "classifier_labels": [
+        "dam"
+      ],
+      "radius_m": 400
+    },
+    "Q537127": {
+      "label": "road bridge",
+      "decision": "include",
+      "classifier_labels": [
+        "bridge"
+      ],
+      "radius_m": 400
+    },
+    "Q2104072": {
+      "label": "pontoon bridge",
+      "decision": "include",
+      "classifier_labels": [
+        "bridge"
+      ],
+      "radius_m": 400
+    },
+    "Q863454": {
+      "label": "pier",
+      "decision": "include",
+      "classifier_labels": [
+        "pier",
+        "waterfront"
+      ],
+      "radius_m": 300
+    },
+    "Q483110": {
+      "label": "stadium",
+      "decision": "include",
+      "classifier_labels": [
+        "stadium"
+      ],
+      "radius_m": 400
+    },
+    "Q200023": {
+      "label": "swimming center",
+      "decision": "include",
+      "classifier_labels": [
+        "swimming pool",
+        "building"
+      ]
+    },
+    "Q502074": {
+      "label": "heliport",
+      "decision": "include",
+      "classifier_labels": [
+        "heliport"
+      ],
+      "radius_m": 150
+    },
+    "Q2175765": {
+      "label": "tram stop",
+      "decision": "include",
+      "classifier_labels": [
+        "tram stop",
+        "station"
+      ],
+      "radius_m": 100
+    },
+    "Q132555858": {
+      "label": "railway station in a highway median",
+      "decision": "include",
+      "classifier_labels": [
+        "station"
+      ],
+      "radius_m": 150
+    },
+    "Q83620": {
+      "label": "thoroughfare",
+      "decision": "include",
+      "classifier_labels": [
+        "street"
+      ],
+      "radius_m": 300
+    },
+    "Q245016": {
+      "label": "military base",
+      "decision": "include",
+      "classifier_labels": [
+        "building",
+        "military"
+      ],
+      "radius_m": 600
+    },
+    "Q4022": {
+      "label": "river",
+      "decision": "include",
+      "classifier_labels": [
+        "river",
+        "water"
+      ],
+      "radius_m": 500
+    },
+    "Q47521": {
+      "label": "stream",
+      "decision": "include",
+      "classifier_labels": [
+        "river",
+        "water"
+      ],
+      "radius_m": 400
+    },
+    "Q39594": {
+      "label": "bay",
+      "decision": "include",
+      "classifier_labels": [
+        "water",
+        "landscape"
+      ],
+      "radius_m": 800
+    },
+    "Q1210950": {
+      "label": "channel",
+      "decision": "include",
+      "classifier_labels": [
+        "water"
+      ],
+      "radius_m": 800
+    },
+    "Q23442": {
+      "label": "island",
+      "decision": "include",
+      "classifier_labels": [
+        "island",
+        "landscape"
+      ],
+      "radius_m": 600
+    },
+    "Q185113": {
+      "label": "cape",
+      "decision": "include",
+      "classifier_labels": [
+        "coastline",
+        "landscape"
+      ],
+      "radius_m": 600
+    },
+    "Q1307276": {
+      "label": "single-family detached home",
+      "decision": "exclude_privacy",
+      "reason": "private residence; soliciting photos of it conflicts with the project's location-privacy stance even when the item is notable"
+    },
+    "Q163740": {
+      "label": "nonprofit organization",
+      "decision": "exclude",
+      "reason": "organization; coordinates are an office address"
+    },
+    "Q43229": {
+      "label": "organization",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q4830453": {
+      "label": "business",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q6881511": {
+      "label": "enterprise",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q783794": {
+      "label": "company",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q167037": {
+      "label": "corporation",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q157031": {
+      "label": "foundation",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q18325436": {
+      "label": "501(c)(3) organization",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q708676": {
+      "label": "charitable organization",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q327333": {
+      "label": "government agency",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q4287745": {
+      "label": "medical organization",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q155271": {
+      "label": "think tank",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q955824": {
+      "label": "learned society",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q5504285": {
+      "label": "friends of libraries",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q398141": {
+      "label": "school district",
+      "decision": "exclude",
+      "reason": "administrative entity"
+    },
+    "Q5154933": {
+      "label": "community college district",
+      "decision": "exclude",
+      "reason": "administrative entity"
+    },
+    "Q98456412": {
+      "label": "school accreditor",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q4502119": {
+      "label": "art group",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q6815100": {
+      "label": "membership organization",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q17084016": {
+      "label": "nonprofit corporation",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q742421": {
+      "label": "theatre company",
+      "decision": "exclude",
+      "reason": "organization (troupe, not a venue)"
+    },
+    "Q1140700": {
+      "label": "improvisational theatre",
+      "decision": "exclude",
+      "reason": "organization (troupe, not a venue)"
+    },
+    "Q2085381": {
+      "label": "publishing house",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q11424629": {
+      "label": "geography department",
+      "decision": "exclude",
+      "reason": "organization (academic unit)"
+    },
+    "Q180958": {
+      "label": "faculty",
+      "decision": "exclude",
+      "reason": "organization (academic unit)"
+    },
+    "Q28863779": {
+      "label": "university research group",
+      "decision": "exclude",
+      "reason": "organization (academic unit)"
+    },
+    "Q5259432": {
+      "label": "dental school",
+      "decision": "exclude",
+      "reason": "organization (academic unit)"
+    },
+    "Q2143781": {
+      "label": "drama school",
+      "decision": "exclude",
+      "reason": "organization (academic unit)"
+    },
+    "Q446901": {
+      "label": "nursing school",
+      "decision": "exclude",
+      "reason": "organization (academic unit)"
+    },
+    "Q494230": {
+      "label": "medical school",
+      "decision": "exclude",
+      "reason": "organization (academic unit)"
+    },
+    "Q69964246": {
+      "label": "school of public health",
+      "decision": "exclude",
+      "reason": "organization (academic unit)"
+    },
+    "Q16274795": {
+      "label": "shipbuilding company",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q1225034": {
+      "label": "virtual museum",
+      "decision": "exclude",
+      "reason": "no physical site"
+    },
+    "Q137183855": {
+      "label": "perfume brand",
+      "decision": "exclude",
+      "reason": "brand, not a place"
+    },
+    "Q2001305": {
+      "label": "television channel",
+      "decision": "exclude",
+      "reason": "organization/medium"
+    },
+    "Q1555508": {
+      "label": "radio program",
+      "decision": "exclude",
+      "reason": "creative work"
+    },
+    "Q3464665": {
+      "label": "television series season",
+      "decision": "exclude",
+      "reason": "creative work"
+    },
+    "Q27020041": {
+      "label": "sports season",
+      "decision": "exclude",
+      "reason": "event"
+    },
+    "Q18558301": {
+      "label": "college sports team",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q82969709": {
+      "label": "softball team",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q220505": {
+      "label": "film festival",
+      "decision": "exclude",
+      "reason": "event"
+    },
+    "Q2192508": {
+      "label": "ship collision",
+      "decision": "exclude",
+      "reason": "event"
+    },
+    "Q2223653": {
+      "label": "terrorist attack",
+      "decision": "exclude",
+      "reason": "event"
+    },
+    "Q28100410": {
+      "label": "2017 Women's March",
+      "decision": "exclude",
+      "reason": "event"
+    },
+    "Q186117": {
+      "label": "timeline",
+      "decision": "exclude",
+      "reason": "abstract entity"
+    },
+    "Q18340550": {
+      "label": "Wikimedia timeline",
+      "decision": "exclude",
+      "reason": "abstract entity"
+    },
+    "Q192611": {
+      "label": "electoral unit",
+      "decision": "exclude",
+      "reason": "administrative region; not a depictable subject"
+    },
+    "Q7972581": {
+      "label": "Washington state legislative districts",
+      "decision": "exclude",
+      "reason": "administrative region"
+    },
+    "Q104146934": {
+      "label": "US state-level electoral district",
+      "decision": "exclude",
+      "reason": "administrative region"
+    },
+    "Q17166756": {
+      "label": "United States congressional district",
+      "decision": "exclude",
+      "reason": "administrative region"
+    },
+    "Q811683": {
+      "label": "proposed building or structure",
+      "decision": "exclude",
+      "reason": "does not exist yet"
+    },
+    "Q124835105": {
+      "label": "proposed tower",
+      "decision": "exclude",
+      "reason": "does not exist yet"
+    },
+    "Q123705": {
+      "label": "neighborhood",
+      "decision": "review",
+      "reason": "photographable in principle but extent is vague; the classifier cannot confirm 'a neighborhood' — junk-upload risk"
+    },
+    "Q486972": {
+      "label": "human settlement",
+      "decision": "review",
+      "reason": "vague extent"
+    },
+    "Q498162": {
+      "label": "census-designated place in the United States",
+      "decision": "review",
+      "reason": "vague extent"
+    },
+    "Q269528": {
+      "label": "unincorporated area",
+      "decision": "review",
+      "reason": "vague extent"
+    },
+    "Q149621": {
+      "label": "district",
+      "decision": "review",
+      "reason": "vague extent"
+    },
+    "Q74047": {
+      "label": "ghost town",
+      "decision": "review",
+      "reason": "vague extent; often nothing visible remains"
+    },
+    "Q31855": {
+      "label": "research institute",
+      "decision": "review",
+      "reason": "org-vs-campus ambiguity"
+    },
+    "Q7315155": {
+      "label": "research center",
+      "decision": "review",
+      "reason": "org-vs-building ambiguity"
+    },
+    "Q483242": {
+      "label": "laboratory",
+      "decision": "review",
+      "reason": "org-vs-building ambiguity"
+    },
+    "Q1814169": {
+      "label": "physics laboratory",
+      "decision": "review",
+      "reason": "org-vs-building ambiguity"
+    },
+    "Q13226383": {
+      "label": "facility",
+      "decision": "review",
+      "reason": "too generic"
+    },
+    "Q2385804": {
+      "label": "educational institution",
+      "decision": "review",
+      "reason": "org-vs-campus ambiguity"
+    },
+    "Q4671277": {
+      "label": "academic institution",
+      "decision": "review",
+      "reason": "org-vs-campus ambiguity"
+    },
+    "Q1792623": {
+      "label": "arts educational institution",
+      "decision": "review",
+      "reason": "org-vs-campus ambiguity"
+    },
+    "Q383092": {
+      "label": "art academy",
+      "decision": "review",
+      "reason": "org-vs-campus ambiguity"
+    },
+    "Q233324": {
+      "label": "seminary",
+      "decision": "review",
+      "reason": "org-vs-campus ambiguity"
+    },
+    "Q23002054": {
+      "label": "private not-for-profit educational institution",
+      "decision": "review",
+      "reason": "org-vs-campus ambiguity"
+    },
+    "Q380093": {
+      "label": "film school",
+      "decision": "review",
+      "reason": "org-vs-building ambiguity"
+    },
+    "Q166118": {
+      "label": "archives",
+      "decision": "review",
+      "reason": "institution/collection, not clearly a building"
+    },
+    "Q3152824": {
+      "label": "cultural institution",
+      "decision": "review",
+      "reason": "organization, sometimes with a notable building"
+    },
+    "Q14350": {
+      "label": "radio station",
+      "decision": "review",
+      "reason": "org; studios/transmitter are photographable but P18 expectations unclear"
+    },
+    "Q772298": {
+      "label": "homeless shelter",
+      "decision": "review",
+      "reason": "photographable building, but soliciting photos raises dignity concerns for people nearby"
+    },
+    "Q2141554": {
+      "label": "recreational dive site",
+      "decision": "review",
+      "reason": "subject is underwater"
+    },
+    "Q11446": {
+      "label": "ship",
+      "decision": "review",
+      "reason": "may be scrapped/sunk; needs existence check"
+    },
+    "Q12859788": {
+      "label": "steamship",
+      "decision": "review",
+      "reason": "may be scrapped/sunk; needs existence check"
+    },
+    "Q42245028": {
+      "label": "sports hall of fame",
+      "decision": "review",
+      "reason": "usually inside another venue"
+    },
+    "Q2577005": {
+      "label": "superior court",
+      "decision": "review",
+      "reason": "institution; courthouse building is usually a separate item"
+    },
+    "Q3125101": {
+      "label": "trial court",
+      "decision": "review",
+      "reason": "institution; courthouse building is usually a separate item"
+    },
+    "Q1032372": {
+      "label": "hackspace",
+      "decision": "review",
+      "reason": "org-vs-venue ambiguity"
+    },
+    "Q7882536": {
+      "label": "non-denominational",
+      "decision": "review",
+      "reason": "not a type; data quality issue on the item"
+    },
+    "Q40080": {
+      "label": "beach",
+      "decision": "include",
+      "classifier_labels": [
+        "beach",
+        "shoreline"
+      ],
+      "radius_m": 400
+    },
+    "Q8502": {
+      "label": "mountain",
+      "decision": "include",
+      "classifier_labels": [
+        "mountain",
+        "landscape"
+      ],
+      "radius_m": 1000
+    },
+    "Q54050": {
+      "label": "hill",
+      "decision": "include",
+      "classifier_labels": [
+        "hill",
+        "landscape"
+      ],
+      "radius_m": 600
+    },
+    "Q740445": {
+      "label": "ridge",
+      "decision": "include",
+      "classifier_labels": [
+        "mountain",
+        "landscape"
+      ],
+      "radius_m": 800
+    },
+    "Q107679": {
+      "label": "cliff",
+      "decision": "include",
+      "classifier_labels": [
+        "cliff",
+        "landscape"
+      ],
+      "radius_m": 400
+    },
+    "Q39816": {
+      "label": "valley",
+      "decision": "include",
+      "classifier_labels": [
+        "valley",
+        "landscape"
+      ],
+      "radius_m": 1000
+    },
+    "Q23397": {
+      "label": "lake",
+      "decision": "include",
+      "classifier_labels": [
+        "lake",
+        "water"
+      ],
+      "radius_m": 800
+    },
+    "Q12280": {
+      "label": "bridge",
+      "decision": "include",
+      "classifier_labels": [
+        "bridge"
+      ],
+      "radius_m": 400
+    },
+    "Q1068842": {
+      "label": "footbridge",
+      "decision": "include",
+      "classifier_labels": [
+        "bridge"
+      ],
+      "radius_m": 200
+    },
+    "Q44377": {
+      "label": "tunnel",
+      "decision": "include",
+      "classifier_labels": [
+        "tunnel"
+      ],
+      "radius_m": 400
+    },
+    "Q1478783": {
+      "label": "ferry port",
+      "decision": "include",
+      "classifier_labels": [
+        "ferry terminal",
+        "waterfront"
+      ],
+      "radius_m": 400
+    },
+    "Q1497364": {
+      "label": "building complex",
+      "decision": "include",
+      "classifier_labels": [
+        "building"
+      ],
+      "radius_m": 400
+    },
+    "Q261604": {
+      "label": "oil-fired power station",
+      "decision": "include",
+      "classifier_labels": [
+        "power station",
+        "industrial building"
+      ],
+      "radius_m": 400
+    },
+    "Q18206833": {
+      "label": "engine power plant",
+      "decision": "include",
+      "classifier_labels": [
+        "power station",
+        "industrial building"
+      ],
+      "radius_m": 400
+    },
+    "Q209465": {
+      "label": "campus",
+      "decision": "include",
+      "classifier_labels": [
+        "campus",
+        "building"
+      ],
+      "radius_m": 600
+    },
+    "Q1336920": {
+      "label": "community college",
+      "decision": "include",
+      "classifier_labels": [
+        "campus",
+        "building"
+      ],
+      "radius_m": 400
+    },
+    "Q1663017": {
+      "label": "engineering college",
+      "decision": "include",
+      "classifier_labels": [
+        "campus",
+        "building"
+      ],
+      "radius_m": 400
+    },
+    "Q1021290": {
+      "label": "music school",
+      "decision": "include",
+      "classifier_labels": [
+        "school",
+        "building"
+      ]
+    },
+    "Q33506": {
+      "label": "museum",
+      "decision": "include",
+      "classifier_labels": [
+        "museum",
+        "building"
+      ]
+    },
+    "Q654772": {
+      "label": "hostel",
+      "decision": "include",
+      "classifier_labels": [
+        "hotel",
+        "building"
+      ]
+    },
+    "Q17102985": {
+      "label": "seafood restaurant",
+      "decision": "include",
+      "classifier_labels": [
+        "restaurant",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q53847673": {
+      "label": "Italian restaurant",
+      "decision": "include",
+      "classifier_labels": [
+        "restaurant",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q1311064": {
+      "label": "ice cream parlor",
+      "decision": "include",
+      "classifier_labels": [
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q4236467": {
+      "label": "coffeehouse",
+      "decision": "include",
+      "classifier_labels": [
+        "café",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q59769581": {
+      "label": "general bookstore",
+      "decision": "include",
+      "classifier_labels": [
+        "bookstore",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q16590780": {
+      "label": "comics shop",
+      "decision": "include",
+      "classifier_labels": [
+        "bookstore",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q622425": {
+      "label": "nightclub",
+      "decision": "include",
+      "classifier_labels": [
+        "bar",
+        "storefront"
+      ],
+      "radius_m": 150
+    },
+    "Q83809": {
+      "label": "totem pole",
+      "decision": "include",
+      "classifier_labels": [
+        "totem pole",
+        "sculpture"
+      ],
+      "radius_m": 100
+    },
+    "Q9325291": {
+      "label": "outdoor sculpture",
+      "decision": "include",
+      "classifier_labels": [
+        "sculpture",
+        "statue"
+      ],
+      "radius_m": 100
+    },
+    "Q1640824": {
+      "label": "inscription",
+      "decision": "include",
+      "classifier_labels": [
+        "inscription",
+        "plaque"
+      ],
+      "radius_m": 100
+    },
+    "Q949616": {
+      "label": "area code in North America",
+      "decision": "exclude",
+      "reason": "abstract entity"
+    },
+    "Q1663557": {
+      "label": "initiative",
+      "decision": "exclude",
+      "reason": "abstract entity"
+    },
+    "Q35127": {
+      "label": "website",
+      "decision": "exclude",
+      "reason": "abstract entity"
+    },
+    "Q618779": {
+      "label": "award",
+      "decision": "exclude",
+      "reason": "abstract entity"
+    },
+    "Q178790": {
+      "label": "labor union",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q1144447": {
+      "label": "modeling agency",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q18534542": {
+      "label": "restaurant chain",
+      "decision": "exclude",
+      "reason": "organization; individual locations are separate items"
+    },
+    "Q1616075": {
+      "label": "television station",
+      "decision": "exclude",
+      "reason": "organization/medium"
+    },
+    "Q20897549": {
+      "label": "art institution",
+      "decision": "exclude",
+      "reason": "organization"
+    },
+    "Q15726209": {
+      "label": "school district in the United States",
+      "decision": "exclude",
+      "reason": "administrative entity"
+    },
+    "Q17143723": {
+      "label": "Catholic parish",
+      "decision": "exclude",
+      "reason": "ecclesiastical subdivision; the church building is a separate item"
+    },
+    "Q102496": {
+      "label": "parish",
+      "decision": "exclude",
+      "reason": "ecclesiastical subdivision"
+    },
+    "Q3882219": {
+      "label": "assassination",
+      "decision": "exclude",
+      "reason": "event"
+    },
+    "Q1139665": {
+      "label": "political murder",
+      "decision": "exclude",
+      "reason": "event"
+    },
+    "Q132821": {
+      "label": "murder",
+      "decision": "exclude",
+      "reason": "event"
+    },
+    "Q15275719": {
+      "label": "recurring event",
+      "decision": "exclude",
+      "reason": "event"
+    },
+    "Q515": {
+      "label": "city",
+      "decision": "review",
+      "reason": "vague extent, like neighborhood"
+    },
+    "Q15127012": {
+      "label": "town in the United States",
+      "decision": "review",
+      "reason": "vague extent"
+    },
+    "Q1855011": {
+      "label": "yacht club",
+      "decision": "review",
+      "reason": "org-vs-clubhouse/marina ambiguity"
+    }
   }
 }

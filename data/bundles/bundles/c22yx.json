@@ -1,8 +1,48 @@
 {
  "format_version": "0.1",
  "geohash": "c22yx",
- "generated": "2026-06-10T18:45:23+00:00",
+ "generated": "2026-06-10T19:30:54+00:00",
  "wants": [
+  {
+   "id": "wd-p18/Q47007397",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q47007397",
+    "label": "Elliot Bay Petroglyphs",
+    "classes": [
+     "Q1640824"
+    ],
+    "classifier_labels": [
+     "inscription",
+     "plaque"
+    ]
+   },
+   "geo": {
+    "lat": 47.565,
+    "lon": -122.35,
+    "radius_m": 100
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q47007397"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q47007397 wdt:P18 [] }"
+   }
+  },
   {
    "id": "wd-p18/Q49000964",
    "publisher": "wikimedia/wikidata-p18-missing",
@@ -166,6 +206,46 @@
    }
   },
   {
+   "id": "wd-p18/Q49470044",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49470044",
+    "label": "Pigeon Point",
+    "classes": [
+     "Q107679"
+    ],
+    "classifier_labels": [
+     "cliff",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.570555555,
+    "lon": -122.359166666,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49470044"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49470044 wdt:P18 [] }"
+   }
+  },
+  {
    "id": "wd-p18/Q49488047",
    "publisher": "wikimedia/wikidata-p18-missing",
    "type": "photo",
@@ -243,6 +323,86 @@
    },
    "status_check": {
     "sparql_ask": "ASK { wd:Q49579017 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q49800702",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49800702",
+    "label": "Fairmount Gulch",
+    "classes": [
+     "Q39816"
+    ],
+    "classifier_labels": [
+     "valley",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.586944444,
+    "lon": -122.378611111,
+    "radius_m": 1000
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49800702"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49800702 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q113265218",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q113265218",
+    "label": "West Seattle Ferry Terminal",
+    "classes": [
+     "Q1478783"
+    ],
+    "classifier_labels": [
+     "ferry terminal",
+     "waterfront"
+    ]
+   },
+   "geo": {
+    "lat": 47.58952,
+    "lon": -122.37974,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q113265218"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q113265218 wdt:P18 [] }"
    }
   },
   {

@@ -1,8 +1,49 @@
 {
  "format_version": "0.1",
  "geohash": "c23p0",
- "generated": "2026-06-10T18:45:23+00:00",
+ "generated": "2026-06-10T19:30:54+00:00",
  "wants": [
+  {
+   "id": "wd-p18/Q47093015",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q47093015",
+    "label": "University of Washington College of Engineering",
+    "classes": [
+     "Q1663017",
+     "Q180958"
+    ],
+    "classifier_labels": [
+     "campus",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.654281,
+    "lon": -122.304453,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 2
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q47093015"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q47093015 wdt:P18 [] }"
+   }
+  },
   {
    "id": "wd-p18/Q105820841",
    "publisher": "wikimedia/wikidata-p18-missing",
@@ -160,6 +201,46 @@
    },
    "status_check": {
     "sparql_ask": "ASK { wd:Q120679352 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q4935845",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q4935845",
+    "label": "Bobo",
+    "classes": [
+     "Q33506"
+    ],
+    "classifier_labels": [
+     "museum",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.661,
+    "lon": -122.31,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q4935845"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q4935845 wdt:P18 [] }"
    }
   },
   {
@@ -677,6 +758,46 @@
    }
   },
   {
+   "id": "wd-p18/Q105329341",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q105329341",
+    "label": "Seattle Piano Academy",
+    "classes": [
+     "Q1021290"
+    ],
+    "classifier_labels": [
+     "school",
+     "building"
+    ]
+   },
+   "geo": {
+    "lat": 47.676190905,
+    "lon": -122.302405393,
+    "radius_m": 250
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q105329341"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q105329341 wdt:P18 [] }"
+   }
+  },
+  {
    "id": "wd-p18/Q107339057",
    "publisher": "wikimedia/wikidata-p18-missing",
    "type": "photo",
@@ -713,6 +834,47 @@
    },
    "status_check": {
     "sparql_ask": "ASK { wd:Q107339057 wdt:P18 [] }"
+   }
+  },
+  {
+   "id": "wd-p18/Q116714545",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q116714545",
+    "label": "University of Washington Power Plant",
+    "classes": [
+     "Q18206833",
+     "Q261604"
+    ],
+    "classifier_labels": [
+     "power station",
+     "industrial building"
+    ]
+   },
+   "geo": {
+    "lat": 47.6539,
+    "lon": -122.3036,
+    "radius_m": 400
+   },
+   "priority": {
+    "sitelinks": 0
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q116714545"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q116714545 wdt:P18 [] }"
    }
   },
   {

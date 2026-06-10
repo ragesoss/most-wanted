@@ -1,8 +1,48 @@
 {
  "format_version": "0.1",
  "geohash": "c23nd",
- "generated": "2026-06-10T18:45:23+00:00",
+ "generated": "2026-06-10T19:30:54+00:00",
  "wants": [
+  {
+   "id": "wd-p18/Q49028966",
+   "publisher": "wikimedia/wikidata-p18-missing",
+   "type": "photo",
+   "subject": {
+    "wikidata_qid": "Q49028966",
+    "label": "First Hill",
+    "classes": [
+     "Q54050"
+    ],
+    "classifier_labels": [
+     "hill",
+     "landscape"
+    ]
+   },
+   "geo": {
+    "lat": 47.5825,
+    "lon": -122.240833333,
+    "radius_m": 600
+   },
+   "priority": {
+    "sitelinks": 1
+   },
+   "constraints": {
+    "license_required": "CC-BY-SA-4.0",
+    "sensitivity": [
+     "strip_gps_homes",
+     "flag_faces"
+    ]
+   },
+   "fulfillment": {
+    "endpoint": "commons_upload",
+    "structured_data": {
+     "depicts": "Q49028966"
+    }
+   },
+   "status_check": {
+    "sparql_ask": "ASK { wd:Q49028966 wdt:P18 [] }"
+   }
+  },
   {
    "id": "wd-p18/Q49496630",
    "publisher": "wikimedia/wikidata-p18-missing",

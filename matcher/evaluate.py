@@ -9,6 +9,11 @@ Checks, per scenario:
                           a dense block legitimately yields several candidates
                           for the human to pick from
     wrong_heading         expected want may appear but must NOT be auto_suggest
+    semantic_mismatch     expected want absent (dropped by the classifier);
+                          only checked when the report was produced with a
+                          semantic backend
+    no_gps_burst          position inferred from a burst neighbor; expected
+                          want among candidates, never auto_suggest
     far_decoy             no candidates at any tier
     no_gps                photo routed to the no-GPS pile
 """
@@ -28,6 +33,9 @@ def main():
     report = json.loads(Path(args.report).read_text())
     manifest = json.loads(Path(args.manifest).read_text())["photos"]
     by_file = {p["file"]: p for p in report["photos"]}
+    semantic_active = report["stats"].get("semantic_rejected") is not None and any(
+        c["classifier"] != "not_run" for p in report["photos"] for c in p["candidates"]
+    )
 
     results = Counter()
     failures = []
@@ -62,6 +70,19 @@ def main():
         elif scenario == "wrong_heading":
             bad = any(c["want_id"] == expected and c["tier"] == "auto_suggest" for c in cands)
             check(name, not bad, "expected want must not be auto_suggest with reversed heading")
+        elif scenario == "semantic_mismatch":
+            if not semantic_active:
+                continue  # scenario only meaningful with a semantic backend
+            present = any(c["want_id"] == expected for c in cands)
+            check(name, not present, f"expected {expected} to be semantically rejected")
+        elif scenario == "no_gps_burst":
+            ok = (
+                entry.get("gps") == "inferred"
+                and any(c["want_id"] == expected and c["tier"] == "worth_a_look" for c in cands)
+                and not any(c["want_id"] == expected and c["tier"] == "auto_suggest" for c in cands)
+            )
+            check(name, ok, f"expected inferred-gps {expected}@worth_a_look, got gps={entry.get('gps')} "
+                            f"{[(c['want_id'], c['tier']) for c in cands]}")
 
     print(f"pass: {results['pass']}  fail: {results['fail']}")
     for f in failures:
